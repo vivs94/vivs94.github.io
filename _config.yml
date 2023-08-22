@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Hardik Prabhu"
-  avatar           : "profile.png"
-  bio              : "Biography for the left-hand sidebar. Going to add more ..."
+  avatar           : "possible_profile_photo.jpg"
+  bio              : "Research Associate at Flame University. Previously worked as an ML Engineer at Cloudaeye, a silicon valley startup. Graduated with an MSc in Data Science from Chennai Mathematical Institute. I am passionate about machine learning and data-driven analytics. "
   location         : "Pune, Maharashtra, India"
   employer         : "FLAME University"
   pubmed           : 
@@ -100,16 +100,16 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   LinkedIn         : "https://linkedin.com/in/hardik-prabhu/"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
