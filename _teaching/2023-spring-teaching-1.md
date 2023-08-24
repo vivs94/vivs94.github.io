@@ -5,7 +5,7 @@ type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "FLAME University, Centre for Computing and Data Sciences
 "
-date: 2014-01-01
+date: 2023-01-10
 location: "Pune, India"
 ---
 
@@ -20,5 +20,5 @@ Selected python notebooks
 Selected Slides
 ======
 
-*[Introduction to Stats](https://docs.google.com/presentation/d/1-LtoUSzoxx6lGNCpTPhrOnkIXYCAVul1aNp6XQYFXP0/edit?usp=sharing)
+* [Introduction to Stats](https://docs.google.com/presentation/d/1-LtoUSzoxx6lGNCpTPhrOnkIXYCAVul1aNp6XQYFXP0/edit?usp=sharing)
 

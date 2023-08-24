@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Assistant, CSIT: 331, "
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "FLAME University, Centre for Computing and Data Sciences
+"
+date: 2023-01-01
+location: "Pune, India"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+
+I delivered engaging classroom lectures and interactive tutorials on optimization using gradient descent algorithm. 
+
+Selected python notebooks
 ======
 
-Heading 2
-======
+* [Grad_descent](https://colab.research.google.com/drive/1HvhUQCF3JJwdFpSRcNzrct5Xa0K8oB_U?usp=sharing)
 
-Heading 3
-======
