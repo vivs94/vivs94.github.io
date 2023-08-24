@@ -83,8 +83,8 @@ author:
   name             : "Hardik Prabhu"
   avatar           : "possible_profile_photo.jpg"
   bio              : "Research Associate at Flame University. Previously worked as an ML Engineer at Cloudaeye, a silicon valley startup. Graduated with an MSc in Data Science from Chennai Mathematical Institute. I am passionate about machine learning and data-driven analytics. "
-  location         : "Pune, Maharashtra, India"
-  employer         : "FLAME University"
+  location         :
+  employer         : "FLAME University,Pune, Maharashtra, India"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=UVGQmZMAAAAJ&hl=en"
   email            : "hardik.prabhu@gmail.com"
@@ -182,10 +182,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
