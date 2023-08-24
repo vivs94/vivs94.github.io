@@ -11,12 +11,10 @@ redirect_from:
 
 
 
-Hardik Prabhu is a research associate at [FLAME University](https://www.flame.edu.in/) with expertise in generative modeling, deep learning, anomaly detection, and interpretable machine learning. He holds an M.S. in Data Science from [Chennai Mathematical Institute](https://www.cmi.ac.in/) and a B.S. in Mathematics from D.G Ruparel College.
+I am a research associate at FLAME University, specializing in generative modeling, deep learning, anomaly detection, and interpretable machine learning. My educational background includes an M.S. in Data Science from Chennai Mathematical Institute and a B.S. in Mathematics from D.G Ruparel College.
 
-Hardik has over 2 years of industry and research experience. Previously he worked as an ML Engineer at Cloudaeye, a silicon valley startup, where he applied machine learning to deliver solutions for anomaly detection and root cause analysis in cloud-native applications. He has authored publications on topics such as interpretable AI, energy prediction, generative modelling and anomaly detection. His research interests span generative modeling, explainable AI, data science, and applied machine learning.
+With over 2 years of combined industry and research experience, I previously served as an ML Engineer at Cloudaeye, a startup based in Silicon Valley. During my time there, I applied machine learning techniques to provide solutions for detecting anomalies and performing root cause analyses in cloud-native applications. My research journey encompasses various publications on subjects such as interpretable AI, energy prediction, generative modeling, and anomaly detection. My interests revolve around generative modeling, explainable AI, data science, and applied machine learning.
 
-Under the guidance of [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), Hardik has worked on projects involving explainable AI, genetic algorithms and generative modeling. In collaboration with [Dr. Pandersamy Arjunan](https://www.samy101.com/), he has worked on application of machine learning in building energy management.
+Working closely with Dr. Jayaraman Valadi, I've engaged in projects centered around explainable AI, genetic algorithms, and generative modeling. Additionally, I've collaborated with Dr. Pandersamy Arjunan on utilizing machine learning techniques for building energy management.
 
-
-
-At FLAME University, Hardik engages in projects involving explainable AI, generative modelling and genetic algorithms. He also serves as a teaching assistant for computational modeling and machine learning courses. Hardik is proficient in Python and adept at working with libraries like PyTorch, TensorFlow, and Scikit-learn.
+Within the FLAME University environment, my current projects delve into explainable AI, generative modeling, and genetic algorithms. I'm also involved as a teaching assistant for courses on computational modeling and machine learning. In addition to my research and teaching responsibilities, I actively mentor undergraduate students in their research projects, guiding them to explore and develop their ideas. I possess proficiency in Python and am skilled in working with libraries such as PyTorch, TensorFlow, and Scikit-learn.
