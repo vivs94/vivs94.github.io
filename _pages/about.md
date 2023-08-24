@@ -1,7 +1,7 @@
 ---
 permalink: /
 title:
-excerpt: "About me"
+excerpt: 
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 About me
 == 
 
-Hardik Prabhu is a research associate at FLAME University with expertise in generative modeling, deep learning, anomaly detection, and interpretable machine learning. He holds an M.S. in Data Science from Chennai Mathematical Institute and a B.S. in Mathematics from D.G Ruparel College.
+Hardik Prabhu is a research associate at [FLAME University](https://www.flame.edu.in/) with expertise in generative modeling, deep learning, anomaly detection, and interpretable machine learning. He holds an M.S. in Data Science from [Chennai Mathematical Institute](https://www.cmi.ac.in/) and a B.S. in Mathematics from D.G Ruparel College.
 
 Hardik has over 2 years of industry and research experience. Previously he worked as an ML Engineer at Cloudaeye, a silicon valley startup, where he applied machine learning to deliver solutions for anomaly detection and root cause analysis in cloud-native applications. He has authored publications on topics such as interpretable AI, energy prediction, generative modelling and anomaly detection. His research interests span generative modeling, explainable AI, data science, and applied machine learning.
 
