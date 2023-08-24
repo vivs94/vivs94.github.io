@@ -47,9 +47,12 @@
         {% endif %}
 
     {% if post.core %}
-    <p> Conference Core Rating <i>{{ post.core }}</i> </p>
+    <p> Conference Core Rating :  <i>{{ post.core }}</i> </p>
     {% endif %}
 
+    {% if post.IF %}
+    <p> Journal Impact Factor : <i>{{ post.IF }}</i> </p>
+    {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
