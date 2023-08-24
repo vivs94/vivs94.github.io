@@ -12,5 +12,26 @@ author_profile: false
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.published %} 
+     {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+Publication Accepted
+==
+
+{% for post in site.publications reversed %}
+  {% if post.accepted %} 
+     {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
+Publication Under Review
+==
+
+{% for post in site.publications reversed %}
+  {% if post.underreview %} 
+     {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
