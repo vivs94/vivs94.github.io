@@ -1,15 +1,15 @@
 ---
 permalink: /
 title:
-excerpt: 
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About me
-== 
+
+
 
 Hardik Prabhu is a research associate at [FLAME University](https://www.flame.edu.in/) with expertise in generative modeling, deep learning, anomaly detection, and interpretable machine learning. He holds an M.S. in Data Science from [Chennai Mathematical Institute](https://www.cmi.ac.in/) and a B.S. in Mathematics from D.G Ruparel College.
 
