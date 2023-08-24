@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, CSIT: 331, Machine Learning I"
+title: "Teaching Assistant, CSIT: 331, Machine Learning I "
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1

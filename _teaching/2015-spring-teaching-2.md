@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant, CSIT: 331, "
+title: "Teaching Assistant, CSIT: 121, Computational Modeling"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
