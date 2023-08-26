@@ -16,7 +16,7 @@ This blog provides a primer on generative modeling, summarizing the knowledge I'
 
 Generative modeling, promotes understanding of causual relationships between variables involved as we try to understand how to generate an outcome. By mimicking the underlying generative process, this approach allows us to not only replicate outcomes but also unravel the interplay between variables and their influences. 
 
-Following is a paragraph from ["An Introduction to Variational Autoencoders"](https://arxiv.org/pdf/1906.02691.pdf) [1].
+Following is a paragraph from ["An Introduction to Variational Autoencoders"](https://arxiv.org/pdf/1906.02691.pdf) \[1\].
 
  >"A generative model simulates how the data is generated in the real world. “Modeling” is understood in almost every science as unveiling this generating process by hypothesizing theories and testing these theories through observations. For instance, when meteorologists model the weather they use highly complex partial differential equations to express the underlying physics of the weather. Or when an astronomer models the formation of galaxies s/he encodes in his/her equations of motion the physical laws under which stellar bodies interact. The same is true for biologists, chemists, economists and so on. Modeling in the sciences is in fact almost always generative modeling".                 
 
@@ -72,7 +72,7 @@ Before moving ahead lets, focus on what the differenet ordring entails. Lets tak
 </figure>
 
 
-Before making any remarks, it is important to understand the context of the image presented. The data distribution shown in blue (p) is bi-modal, whereas the capacity of the model distribution shown in green is limited to be an univariate gaussian. The distribution of q is limited, just as our model would be limited in terms of the actual complexity of any real data that we are trying to learn. As summarized  by Goodfellow [2]:
+Before making any remarks, it is important to understand the context of the image presented. The data distribution shown in blue (p) is bi-modal, whereas the capacity of the model distribution shown in green is limited to be an univariate gaussian. The distribution of q is limited, just as our model would be limited in terms of the actual complexity of any real data that we are trying to learn. As summarized  by Goodfellow \[2\] :
 
 >"We can think of $D_{KL}(p_{data} \| p_{model})$ as preferring to place high probability everywhere that the data occurs, and $D_{KL}(p_{model} \| p_{data})$ as preferrring to place low probability where data doesnt occur."
 
@@ -95,9 +95,9 @@ Looking at it from a sampling standpoint, an argument could be made in favor of 
 
 ## References
 
-[1]: Kingma, D.P. and Welling, M., 2019. An introduction to variational autoencoders. Foundations and Trends® in Machine Learning, 12(4), pp.307-392.
+1. Kingma, D.P. and Welling, M., 2019. An introduction to variational autoencoders. Foundations and Trends® in Machine Learning, 12(4), pp.307-392.
 
-[2]: Goodfellow, I., 2016. Nips 2016 tutorial: Generative adversarial networks. arXiv preprint arXiv:1701.00160.
+2. Goodfellow, I., 2016. Nips 2016 tutorial: Generative adversarial networks. arXiv preprint arXiv:1701.00160.
 
 
 
