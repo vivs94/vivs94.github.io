@@ -150,15 +150,43 @@ I would like to finish this blog with some useful concepts which would come in h
 
 ### 1. Probabilistic chain rule
 
+This rule allows us to break down complex joint probabilities into a sequence of conditional probabilities.It plays a crucial role in autoregressive generative model. In autoregressive models, the idea is to predict the value of a variable at a specific time point based on its previous values.  
+
 $$P(X_1, X_2, \ldots, X_n) = P(X_1) \cdot P(X_2 | X_1) \cdot P(X_3 | X_1, X_2) \cdot \ldots \cdot P(X_n | X_1, X_2, \ldots, X_{n-1})$$
 
-### 2. Monte-carlo estimation
+### 2. Monte-carlo methods
+
+
+The expectations of any function of a random variable could be calulated simply by knowing the probability distribution of the random variable involved. This is also known as the law of unconcious statistitian (LOTUS).
+
+$$ E_{x \sim p(x)} [f(x)] = \int f(x)p(x)dx $$
+
+Our goal is to solve this integral, typically solving the integral becomes very challenging and practically remains intractable. Most of the time, we would find that it is easier to estimate the value of expectation by performing  certain operations on samples generated from known distributions. Such techniques are known as monte-carlo methods.
+
+One of the fundamental techniques involves sampling from the probability distribution p(x). With this method, one can estimate the expected value by simply calculating the average of the function's values obtained from the generated samples.
+
+
+ $$S_n =  1/n \sum_{i=1}^{n}f(x_i) $$
+
+ We could easily see that this quantity is an unbiased estiamtor (i.e., $E[S_n] = E[f(x)] $). And $Var(S_n) = \frac{1}{n} var(f(x))$. As n $ \rightarrow \infty $, variance of the estimator is zero. 
+
+In Monte Carlo estimation, the central question typically revolves around determining the number of samples required to obtain a reasonable estimate. More sohisticated techniques will result is a faster decay of variance. There are instances where sampling from the distribution p is not straightforward, and in such scenarios, importance sampling is often employed.
+
+The idea is simple, instead of sampling from p (which may be impossible), a known distribution q is used. 
+
+ $$E_{x \sim p}[f_(x)] = E_{x \sim q}[f(x)w(x)] $$
+
+Where $ w(x) = \frac{p(x)}{q(x)}$ is also known as the importance weight. 
+
+ The variance of the estimator is influenced by the selection of the probability density function $q$. It can be demonstrated that when $q(x)$ is equal to the ratio of $p(x)$ multiplied by $f(x)$ (i.e., $q(x) = p(x)f(x)/E_p[f(x)]$), then the variance becomes zero. 
 
 ### 3. Gradient of expectation
 
+
+
+
 ### 4.Transforming random variables
 
-### 5. Markov assumption
 
 
 
