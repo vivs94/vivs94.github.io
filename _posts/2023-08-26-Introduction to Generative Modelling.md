@@ -4,10 +4,10 @@ date: Aug 26, 2023
 author: Hardik Prabhu
 
 tags:
-  - Generative modeling
+  - Generative Modeling
   - Probability
   - KL Divergence
-  - Likelyhood
+  - Likelihood
   
 ---
 
