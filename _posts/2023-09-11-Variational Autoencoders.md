@@ -15,14 +15,14 @@ tags:
 
 ## The latent variable model
 
-The following generative process is assumed, first sample $z \sim p_\theta(z)$. Then sample x from $p_\theta(x|z)$.
+The following generative process is assumed, first sample $z \sim p_\theta(z)$. Then sample x from $p_\theta(x\vert z)$.
 
 
-%insert picture here
+
 
 The joint distribution for the generative model is given by the Bayes rule.
 
-$$  p_\theta(x,y) = p_\theta(z)p_\theta(x|z)$$
+$$p_\theta(x,y) = p_\theta(z)p_\theta(x|z)$$
 
 
 
@@ -44,7 +44,7 @@ $$=   \log  E_{z \sim p_\theta(z)}[p_\theta(x|z)]$$
 
 
 
-Estimating the gradient of the expression w.r.t $\theta$ using a Monte Carlo estimation is not straightforward. (But it could be done, using a re-parameterization trick or log-derivative trick etc.) For simplicity, we often assume prior being parameter-free (i.e., $z \sim p(z)$). We can now resort to just taking the average of $p_\theta(x|z)$ sampled from $z \sim p(z)$. However, this is been found to be practically inefficient due to large variance. To reduce the variance and make the estimation more precise, we utilize importance sampling:
+Estimating the gradient of the expression w.r.t $\theta$ using a Monte Carlo estimation is not straightforward. (But it could be done, using a re-parameterization trick or log-derivative trick etc.) For simplicity, we often assume prior being parameter-free (i.e., $z \sim p(z)$). We can now resort to just taking the average of $p_\theta(x\vert z)$ sampled from $z \sim p(z)$. However, this is been found to be practically inefficient due to large variance. To reduce the variance and make the estimation more precise, we utilize importance sampling:
 
 $$ E_{p_\theta(z)}[p_\theta(x|z)] = E_{z \sim q(z)} \left[\frac {p_\theta(x|z) p_\theta(z)}{q(z)} \right] $$
 
@@ -52,7 +52,7 @@ In this approach, the average is taken of the quantity inside expectation over s
 
 $$var(I_n) = \frac{1}{n}var\left( \frac {p_\theta(x|z) p_\theta(z)}{q(z)} \right) $$
 
-For zero variance, we would like $q(z) \propto p_\theta(x|z) p_\theta(z) $. We can then show that it is equivalent to saying  $q(z) = p_{\theta}(z|x)$:
+For zero variance, we would like $q(z) \propto p_\theta(x\vert z) p_\theta(z) $. We can then show that it is equivalent to saying  $q(z) = p_{\theta}(z \vert x)$:
 
 
 $$ q(z) = c p_\theta(x|z) p_\theta(z)$$
