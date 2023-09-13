@@ -19,7 +19,7 @@ approach for identifying anomalous energy consumption.'
 date: 2024-1-1
 venue: 
 paperurl:
-core: "A"
+core: 
 code: 
 paper: 
 published: 

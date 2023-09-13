@@ -67,9 +67,10 @@ $$ \Rightarrow q(z) = \frac{1}{p_\theta(x)} p_\theta(x|z) p_\theta(z)$$
 
 $$ \Rightarrow q(z) = p_{\theta}(z|x) $$
 
-In practice, the closer $q(z)$ is to the posterior ($p_{\theta}(z|x))$, the faster the convergence and better the estimate. 
+In practice, the closer $q(z)$ is to the posterior ($p_{\theta}(z \vert x))$, the faster the convergence and better the estimate. 
 
-Our discussion so far has provided two optimization objectives to improve our generative model given a single datapoint $x$: \\
+Our discussion so far has provided two optimization objectives to improve our generative model given a single datapoint $x$: 
+
 
 Objective (1): Maximize Likelihood
 
@@ -87,7 +88,7 @@ It is easy to verify that the equality holds when $q(z) \propto p_\theta(x|z) p_
 
 Objective (2): We would like to make $q(z)$ close to the posterior.
 
-$$q(z) = \arg \min_q D_{KL}(q(z) \parallel  p_{\theta}(z|x)) $$ 
+$$q(z) = \arg \min_q D_{KL}(q(z) \parallel  p_{\theta}(z \vert x)) $$ 
 
 
 We would like to maximize Objective 1 and minimize Objective 2, we may roughly obtain a good solution if we try to maximise (Obj 1 - Obj 2). Let's consider the term which we would get if we subtract the two objectives (Obj 1 - Obj 2):
@@ -97,7 +98,7 @@ $$  \ell(\theta,q) = \log p_\theta(x)
 
 
 $$ = \log p_\theta(x)
- + E_{z \sim q(z)} \left[ \log \frac {p_\theta(z|x) }{q(z)} \right]$$
+ + E_{z \sim q(z)} \left[ \log \frac {p_\theta(z \vert x) }{q(z)} \right]$$
 
 $$ = 
  E_{z \sim q(z)} \left[\log p_\theta(x) + \log \frac {p_\theta(z|x) }{q(z)} \right]$$
@@ -116,7 +117,7 @@ $$  \ell(\theta,q) = E_{z \sim q(z)} \left[\log \frac {p_\theta(x)p_\theta(z|x) 
 
 
 When maximizing the ELBO w.r.t $\theta$ and $q$, 
-The inference distribution $q(z)$ has to be optimized, for each $x$ individually, and it's computationally expensive. Ideally, we aim to learn a mapping instead, allowing us to pass an unseen $x$ as input and obtain the corresponding distribution without the need for costly individual optimization. The distribution is parameterized by $\phi$ (i.e., $z \sim q_\phi(z|x)$).
+The inference distribution $q(z)$ has to be optimized, for each $x$ individually, and it's computationally expensive. Ideally, we aim to learn a mapping instead, allowing us to pass an unseen $x$ as input and obtain the corresponding distribution without the need for costly individual optimization. The distribution is parameterized by $\phi$ (i.e., $z \sim q_\phi(z \vert x)$).
 
 The log-likelihood for the entire training batch $D$ is sum of  individual likelihood, hence the sum of ELBO loss over all the points serve as the lower bound. 
 
