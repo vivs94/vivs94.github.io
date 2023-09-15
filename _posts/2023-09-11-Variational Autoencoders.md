@@ -83,7 +83,7 @@ A lower bound for this expression could be obtained using Jensen's Inequality:
 
 $$\log E_{z \sim q(z)} \left[\frac {p_\theta(x|z) p_\theta(z)}{q(z)} \right] \geq  E_{z \sim q(z)} \left[ \log \frac {p_\theta(x|z) p_\theta(z)}{q(z)} \right]$$
 
-It is easy to verify that the equality holds when $q(z) \propto p_\theta(x|z) p_\theta(z)$. This aligns well with our second objective.
+It is easy to verify that the equality holds when $q(z) \propto p_\theta(x \vert z) p_\theta(z)$. This aligns well with our second objective.
 
 
 Objective (2): We would like to make $q(z)$ close to the posterior.
@@ -124,7 +124,7 @@ The log-likelihood for the entire training batch $D$ is sum of  individual likel
 The objective function to optimize would be:
 $$ L(\theta,\phi,D) = \sum_{x_i \in D} \ell(\theta,\phi,x_i)  $$
 
-Where $$  \ell(\theta,\phi,x) = E_{z \sim q_\phi(z|x)} \left[\log \frac {p_\theta(x,z) }{q_\phi(z|x)} \right]$$
+Where $$  \ell(\theta,\phi,x) = E_{z \sim q_\phi(z \vert x)} \left[\log \frac {p_\theta(x,z) }{q_\phi(z \vert x)} \right]$$
 
 
 ## Reparametrization trick 
