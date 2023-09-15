@@ -13,11 +13,12 @@ tags:
 ### Note: This blog is not yet complete, and will be updated frequently. 
 
 
-## The latent variable model
+## The Latent Variable Model
 
 The following generative process is assumed, first sample $z \sim p_\theta(z)$. Then sample x from $p_\theta(x\vert z)$.
 
 
+![Figure 1 : Directed Graphical Model of VAE](/images/blogs_img/vae/image.png)
 
 
 The joint distribution for the generative model is given by the Bayes rule.
@@ -127,7 +128,7 @@ $$ L(\theta,\phi,D) = \sum_{x_i \in D} \ell(\theta,\phi,x_i)  $$
 Where $$  \ell(\theta,\phi,x) = E_{z \sim q_\phi(z \vert x)} \left[\log \frac {p_\theta(x,z) }{q_\phi(z \vert x)} \right]$$
 
 
-## Alternate Representation of the ELBO}
+## $\beta$-VAE
 
 After performing some algebraic manipulations, it's easy to see,
 
@@ -138,18 +139,30 @@ $$ = E_{z \sim q_\phi(z|x)} \left[\log \frac {p_\theta(z) }{q_\phi(z|x)} + \log 
 
 $$ = - (- E_{z \sim q_\phi(z|x)} [ \log p_\theta(x|z)] +  D_{KL}(q_\phi(z|x) \parallel  p_{\theta}(z)) )$$
 
-Since we are trying to maximize the objective, The terms within the bracket need to be minimized. The first part of the expression is also called the reconstruction error (cross entropy). The second part is known as a regularizing term. By trying to optimize our objective, we are in essence trying to minimize the reconstruction error of our encoding decoding scheme and making sure that the inference distribution $q$ stays close to prior $p$.
+Since we are trying to maximize the objective, The terms within the bracket need to be minimized. The first part of the expression is also called the reconstruction error (cross-entropy). The second part is known as a regularizing term. By trying to optimize our objective, we are in essence trying to minimize the reconstruction error of our encoding decoding scheme and making sure that the inference distribution $q$ stays close to prior $p$.
+
+
+Both terms are important for the objective. To see why, imagine you're generating a new data point $x$ with a trained VAE. First, you sample $z$ from $p(z)$, and then you generate $x$ based on $p(x|z)$. What's crucial to recognize is that we're effectively sampling $(x, z)$ from $p_\theta(x, z)$, rather than directly generating $x$ from $p_\theta(x)$. This makes sense because if you think of a manifold in $x$ space that houses all the true data points, $q(z|x)$ establishes a kind of mapping. The regularization term in our objective ensures that $q(z \vert x)$ stays close to $p(z)$, letting us select a $z$ that can be decoded to a meaningful $x$.  Reconstruction loss is important as well. Otherwise, our encoder-decoder scheme would simply fail.
+
+In Beta-VAE, the loss function is modified as follows:
+
+$$
+-  \ell_{\beta}(\theta, \phi, x) = -E_{z \sim q_\phi(z|x)} [\log p_\theta(x|z)] + \beta \times D_{\text{KL}}(q_\phi(z|x) || p_\theta(z))
+$$
+
+It provides a control to balance between the quality of data reconstruction and the structure of the latent representation. A low $\beta$ focuses on better reconstruction, whereas a high $ \beta$ emphasizes a better-structured latent space (closeness to the choice of prior).    
+
+
+## Role of the Prior
+
+
+
+
+## Conditional VAE
 
 
 
 ## Reparametrization trick 
 
 
-
-
-## Role of the prior
-
-
-## VAE-VQ
-
-## Conditional VAEs
+## VQ-VAE
