@@ -127,6 +127,21 @@ $$ L(\theta,\phi,D) = \sum_{x_i \in D} \ell(\theta,\phi,x_i)  $$
 Where $$  \ell(\theta,\phi,x) = E_{z \sim q_\phi(z \vert x)} \left[\log \frac {p_\theta(x,z) }{q_\phi(z \vert x)} \right]$$
 
 
+## Alternate Representation of the ELBO}
+
+After performing some algebraic manipulations, it's easy to see,
+
+$$  \ell(\theta,\phi,x) = E_{z \sim q_\phi(z|x)} \left[\log \frac {p_\theta(x,z) }{q_\phi(z|x)} \right]$$
+
+$$ = E_{z \sim q_\phi(z|x)} \left[\log \frac {p_\theta(z) }{q_\phi(z|x)} + \log p_\theta(x|z)\right]$$
+
+
+$$ = - (- E_{z \sim q_\phi(z|x)} [ \log p_\theta(x|z)] +  D_{KL}(q_\phi(z|x) \parallel  p_{\theta}(z)) )$$
+
+Since we are trying to maximize the objective, The terms within the bracket need to be minimized. The first part of the expression is also called the reconstruction error (cross entropy). The second part is known as a regularizing term. By trying to optimize our objective, we are in essence trying to minimize the reconstruction error of our encoding decoding scheme and making sure that the inference distribution $q$ stays close to prior $p$.
+
+
+
 ## Reparametrization trick 
 
 
