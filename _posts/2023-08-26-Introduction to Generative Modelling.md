@@ -174,15 +174,50 @@ In Monte Carlo estimation, the central question typically revolves around determ
 
 The idea is simple, instead of sampling from p (which may be impossible), a known distribution q is used. 
 
- $$E_{x \sim p}[f_(x)] = E_{x \sim q}[f(x)w(x)] $$
+ $$E_{x \sim p}[f(x)] = E_{x \sim q}[f(x)w(x)] $$
 
 Where $ w(x) = \frac{p(x)}{q(x)}$ is also known as the importance weight. 
 
- The variance of the estimator is influenced by the selection of the probability density function $q$. It can be demonstrated that when $q(x)$ is equal to the ratio of $p(x)$ multiplied by $f(x)$ (i.e., $q(x) = p(x)f(x)/E_p[f(x)]$), then the variance becomes zero. 
+ The variance of the estimator is influenced by the selection of the probability density function $q$. It can be demonstrated that when $q(x)$ is equal to the ratio of $p(x)$ multiplied by $f(x)$ (i.e., $q(x) = p(x)\vert f(x) \vert /E_p[f(x)]$), then the variance becomes zero. 
 
 ### 3. Gradient of expectation
 
+In many situations, while perfroming gradient decsent, we often come across taking a gradient over a loss which constitutes an expectation term. Since, most of the time the intergal calculation is not tractable, we resort to sampling as an approximation. Recalling Lebniz rule from multivariate calculus course, if $ F(\theta) $ is defined by the integral:
+$$
+F(\theta) = \int_{a(\theta)}^{b(\theta)} f(x, \theta) \, dx
+$$
 
+Then derivative of $F$  with respect to $\theta$ is given by:
+$$
+\frac{d}{d\theta} F(\theta) = \int_{a(\theta)}^{b(\theta)} \frac{\partial}{\partial \theta} f(x, \theta) \, dx + f(b(\theta), \theta) \cdot b'(\theta) - f(a(\theta), \theta) \cdot a'(\theta)
+$$
+ 
+For our purpose, let F be $E_{x \sim p_\theta}[f(x,\phi)]$: 
+
+$$ F(\theta,\phi) = \int f(x, \phi)p_\theta(x) dx $$
+
+Then calcualting $\nabla_\phi F $ (gradient w.r.t $\phi$ ) is pretty straightforward:
+
+$$ \frac{\partial F}{\partial \phi} = \int\frac{\partial f}{\partial \phi} p_\theta(x) dx $$
+
+$$ \frac{\partial F}{\partial \phi} = E_{x \sim p_\theta}[\frac{\partial f}{\partial \phi} p_\theta(x)] $$
+
+Which could be then approximated by sampling. The more challenging situation is to calcuate $\nabla_\theta F $:
+
+
+$$ \frac{\partial F}{\partial \theta} = \int\frac{\partial p_\theta(x)}{\partial \theta} f(x,\phi) dx $$
+
+Notice, this time around the gradient is not a distribution anymore, so the integral cant be approximated from sampling from $p$.
+
+There are a lot of tricks in the literature to overcome this challenge [3], for instance, reparameterization  is applied in VAE loss calculations. Again, the emphasis of various tricks is upon the convergence of estiamte and ease of calcuation. 
+
+One simple trick is to replace the gradient of density with log of density times the density. 
+
+$$ \nabla_\theta p_\theta(x) = p_\theta(x) \nabla_\theta \log p_\theta(x) $$
+
+Hence the gradient, $\nabla_\theta F $ can be rewritted as, 
+
+$$\nabla_\theta F(\theta,\phi) = E_{x \sim p_\theta}[\nabla_\theta \log p_\theta(x) f(x,\phi)]$$
 
 
 ### 4.Transforming random variables
@@ -218,4 +253,4 @@ Where $ w(x) = \frac{p(x)}{q(x)}$ is also known as the importance weight.
 2. Goodfellow, I., 2016. Nips 2016 tutorial: Generative adversarial networks. arXiv preprint arXiv:1701.00160.
 
 
-
+3. Walder, C.J., Roussel, P., Nock, R., Ong, C.S. and Sugiyama, M., 2019. New tricks for estimating gradients of expectations. arXiv preprint arXiv:1901.11311.
