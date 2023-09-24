@@ -1,15 +1,15 @@
 ---
 permalink: /
 title:
-excerpt: "About me"
+excerpt: "Machine Learning - Deep Learning - Generative Modelling - Anomaly Detection - Interpretability"
+
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-### About Me
-
+# About Me
 
 I am a research associate at FLAME University. My educational background includes an M.Sc. in Data Science from  [Chennai Mathematical Institute](https://www.cmi.ac.in/).  My reserch interests revolve around generative modeling, model interpretabliltiy, data science, and applied machine learning.
 
