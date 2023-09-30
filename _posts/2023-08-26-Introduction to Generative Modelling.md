@@ -89,7 +89,7 @@ Before making any remarks, it is important to understand the context of the imag
 
 >"We can think of $D_{KL}(p_{data} \| p_{model})$ as preferring to place high probability everywhere that the data occurs, and $D_{KL}(p_{model} \| p_{data})$ as preferrring to place low probability where data doesnt occur."
 
-Looking at it from a sampling standpoint, an argument could be made in favor of utilizing KL in the opposite direction. This is because it ensures the generation of samples that appear realistic, but there's a risk that these samples might only originate from a specific mode within the distribution, a phenomenon known as "mode collapse." This approach might not be effective in generating data that covers a wide range of high-density regions. Moreover, as we've observed previously, its not possible to explicitly write $p_{data}(x)$. Therfore, optimzing parameters of our model will become tricky. 
+Looking at it from a sampling standpoint, an argument could be made in favor of utilizing KL in the opposite direction. This is because it ensures the generation of samples that appear realistic, but there's a risk that these samples might only originate from a specific mode within the distribution, a phenomenon known as "mode collapse." This approach might not be effective in generating data that covers a wide range of high-density regions. 
 
 
 ## Efficacy of a generative model
@@ -157,9 +157,11 @@ $$P(X_1, X_2, \ldots, X_n) = P(X_1) \cdot P(X_2 | X_1) \cdot P(X_3 | X_1, X_2) \
 ### 2. Monte-carlo methods
 
 
-The expectations of any function of a random variable could be calulated simply by knowing the probability distribution of the random variable involved. This is also known as the law of unconcious statistitian (LOTUS).
+The expectations of any function of a random variable could be calulated simply by knowing the probability distribution of the random variable involved. This is also known as the law of the unconscious statistitian (LOTUS).
 
-$$ E_{x \sim p(x)} [f(x)] = \int f(x)p(x)dx $$
+Let $x \sim p(x)$ and $z= f(x)$. Then $E_{p(z)}[z]$ is given as:
+
+$$ E_{p(z)}[z] = E_{x \sim p(x)} [f(x)] = \int f(x)p(x)dx $$
 
 Our goal is to solve this integral, typically solving the integral becomes very challenging and practically remains intractable. Most of the time, we would find that it is easier to estimate the value of expectation by performing  certain operations on samples generated from known distributions. Such techniques are known as monte-carlo methods.
 
@@ -222,10 +224,34 @@ $$\nabla_\theta F(\theta,\phi) = E_{x \sim p_\theta}[\nabla_\theta \log p_\theta
 
 ### 4.Transforming random variables
 
+Let  $F : R^n \rightarrow R^m $ be a diffrentiable transformation (partial derivatives exists). 
+
+$$F(x) = [F_1(x),F_2(x) ...F_m(x)]^\top$$
+
+Then the jacobian of transformation is a matrix defined as: 
+$$J_F = \begin{bmatrix}
+\nabla^\top F_1(x) \\
+\nabla^\top F_2(x) \\
+\vdots \\
+\nabla^\top F_m(x)
+\end{bmatrix}
+$$
+
+Given an invertible transformation  $Y =\mathbf{G}(X)​$ the distribution of Y is given by:
 
 
+$$
+f_{Y}(y) = f_X(G^{-1}(y)) \left| \det \left( J_{G^{-1}}(y) \right) \right|
+$$
+
+And if the jacobian is more convinient to compute in forward direction then:
+
+$$
+f_{Y}(y) = f_{X}(G^{-1}(y)) \frac{1}{\left| \det \left( J_{G}(G^{-1}(y)) \right) \right|}
+$$
 
 
+Invertible transformations are often used  context of generative models, such as Variational Autoencoders (VAEs), where they are integral to the reparameterization trick. Also used in  Normalizing flows where a seq of invertible transformations are used to directly obtain the  distribution of $p(x)$ from the latent variable distribution $p(z)$. 
 
 
 
