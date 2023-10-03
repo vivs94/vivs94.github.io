@@ -27,7 +27,7 @@ Publication Accepted
 {% endfor %}
 
 
-Publication Under Review
+Upcoming Work
 ==
 
 {% for post in site.publications reversed %}
