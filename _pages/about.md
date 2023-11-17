@@ -9,14 +9,16 @@ redirect_from:
   - /about.html
 ---
 
- I serve as a Research Associate at FLAME University's Centre for Mathematical Modelling. My educational background includes an M.Sc. in Data Science from  [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
-I have over 2 years of combined industry and research experience, I previously served as an ML Engineer at Cloudaeye, a startup based in Silicon Valley. During my time there, I applied machine learning techniques to provide solutions for detecting anomalies and performing root cause analyses in cloud-native applications. My research journey encompasses various publications on subjects such as interpretable AI, energy prediction, generative modeling, and anomaly detection.
+ I serve as a Research Associate at Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science (IISC). My current project revolves around application of generative modelling in Energy Time series datasets. 
+ 
+My educational background includes an M.Sc. in Data Science from  [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
+I have over 3 years of combined industry and research experience, I previously served as an ML Engineer at Cloudaeye, a startup based in Silicon Valley. During my time there, I applied machine learning techniques to provide solutions for detecting anomalies and performing root cause analyses in cloud-native applications. My research journey encompasses various publications on subjects such as interpretable AI, energy prediction, generative modeling, and anomaly detection. 
 
-Within the FLAME University environment, my current projects delve into explainable AI, generative modeling, and genetic algorithms. I'm also involved as a teaching assistant for courses on computational modeling and machine learning. In addition to my research and teaching responsibilities, I actively mentor undergraduate students in their research projects, guiding them to explore and develop their ideas. I possess proficiency in Python and am skilled in working with libraries such as PyTorch, TensorFlow, and Scikit-learn.
+Before my current role, I was a Research Associate at FLAME University's Centre for Mathematical Modelling, where I worked on projects related to explainable AI, generative modeling, and genetic algorithms. Additionally, I contributed as a Teaching Assistant, instructing courses in computational modeling, quantitative analysis, and machine learning. I also actively mentored undergraduates in their research, helping them develop and execute their project ideas.
+
 
 ### Collaborations and Projects
-
-In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling. My work with [Dr. Pandersamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. Additionally, my reserch  internship at CMI under [Dr. Venkatesh Vinayakrao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
+My work with [Dr. Pandersamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling.  Additionally, my reserch internship at CMI under [Dr. Venkatesh Vinayakrao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
 
 ### Reserch Interests
 
