@@ -23,3 +23,24 @@ My work with [Dr. Pandersamy Arjunan](https://www.samy101.com/) has been instrum
 ### Reserch Interests
 
 My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. Furthermore, I have a keen interest in areas like model interpretability and representation learning.
+
+
+<div style="height:300px; overflow-y:scroll;">
+
+### [News Headline 1](link-to-full-article)
+*Posted on YYYY-MM-DD*  
+Brief description...
+
+---
+
+### [News Headline 2](link-to-full-article)
+*Posted on YYYY-MM-DD*  
+Brief description...
+
+---
+
+### [News Headline 3](link-to-full-article)
+*Posted on YYYY-MM-DD*  
+Brief description...
+
+</div>
