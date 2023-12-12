@@ -9,9 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-### 
-
-# About Me
+# 👨‍💻 About Me 
 
 
  I serve as a Research Associate at Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science (IISC). My current project revolves around application of generative modelling in Energy Time series datasets. 
