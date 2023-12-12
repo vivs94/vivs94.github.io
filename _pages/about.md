@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-💻 
+### 
 
 # About Me
 
