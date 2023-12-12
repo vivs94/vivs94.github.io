@@ -25,17 +25,14 @@ My work with [Dr. Pandersamy Arjunan](https://www.samy101.com/) has been instrum
 My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. Furthermore, I have a keen interest in areas like model interpretability and representation learning.
 
 
-### News
+### 📰 News
 
-
-<div style="height:300px; overflow-y:scroll;">
+<div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; height: 300px; overflow-y: scroll; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
 ---
 
-### [💻Joined IISc as a Research Associate]
+#### [💻 Joined IISc as a Research Associate](#)
 *Posted on 2023-11-15*  
-I have joined as a reserch associate at Robert Bosch Centre for Cyber Physical Systems @ IIsc.  
-
----
+I have joined as a research associate at the Robert Bosch Centre for Cyber Physical Systems at IISc.  
 
 </div>
