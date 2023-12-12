@@ -17,23 +17,23 @@ I have over 3 years of combined industry and research experience, I previously s
 Before my current role, I was a Research Associate at FLAME University's Centre for Mathematical Modelling, where I worked on projects related to explainable AI, generative modeling, and genetic algorithms. Additionally, I contributed as a Teaching Assistant, instructing courses in computational modeling, quantitative analysis, and machine learning. I also actively mentored undergraduates in their research, helping them develop and execute their project ideas.
 
 
-### Collaborations and Projects
+### 🙌🔬 Collaborations and Projects
 My work with [Dr. Pandersamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling.  Additionally, my reserch internship at CMI under [Dr. Venkatesh Vinayakrao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
 
-### Reserch Interests
+### 😊 Reserch Interests
 
 My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. Furthermore, I have a keen interest in areas like model interpretability and representation learning.
 
 
 ### 📰 News
 
+
 <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; height: 300px; overflow-y: scroll; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-
-
-
-[💻 Joined IISc as a Research Associate](https://cps.iisc.ac.in/)
-*Posted on 2023-11-15*  
-I have joined as a research associate at the Robert Bosch Centre for Cyber Physical Systems at IISc.  
+<p>
+    <a href="https://cps.iisc.ac.in/"> 🏛️ Joined IISc as a Research Associate</a><br>
+    <i>Posted on 2023-11-15</i><br>
+    I have joined as a research associate at the Robert Bosch Centre for Cyber Physical Systems at IISc.
+</p>
 
 </div>
