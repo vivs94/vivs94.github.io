@@ -29,9 +29,10 @@ My research interests focus on deep learning and generative modeling, with an em
 
 <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; height: 300px; overflow-y: scroll; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
----
 
-#### [💻 Joined IISc as a Research Associate](https://cps.iisc.ac.in/)
+
+
+[💻 Joined IISc as a Research Associate](https://cps.iisc.ac.in/)
 *Posted on 2023-11-15*  
 I have joined as a research associate at the Robert Bosch Centre for Cyber Physical Systems at IISc.  
 
