@@ -32,7 +32,7 @@ My research interests focus on deep learning and generative modeling, with an em
 
 ---
 
-### [Joined IISc as a Research Associate]
+### [💻Joined IISc as a Research Associate]
 *Posted on 2023-11-15*  
 I have joined as a reserch associate at Robert Bosch Centre for Cyber Physical Systems @ IIsc.  
 
