@@ -25,13 +25,3 @@ Publication Accepted
      {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-
-Upcoming Work
-==
-
-{% for post in site.publications reversed %}
-  {% if post.underreview %} 
-     {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
