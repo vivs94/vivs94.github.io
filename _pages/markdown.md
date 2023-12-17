@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 ## Dr. Pandersamy Arjunan
-![Dr. Pandersamy Arjunan](https://www.samy101.com/images/portrait.jpg)
+![Dr. Pandersamy Arjunan](/images/samy_sir.jpg)
 A visionary in [field of expertise], Dr. Arjunan has been instrumental in [specific achievements or impact].
 **Research Interests:** 
 [![](https://img.shields.io/badge/-Computational_Biology-blue)](https://www.samy101.com/research#ComputationalBiology)
@@ -20,7 +20,7 @@ A visionary in [field of expertise], Dr. Arjunan has been instrumental in [speci
 - [More about Dr. Arjunan](https://www.samy101.com/)
 
 ## Dr. Jayaraman Valadi
-![Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k/portrait.jpg)
+![Dr. Jayaraman Valadi](/images/jayaraman-vk.jpg)
 Recognized for his work in [area of specialization], Dr. Valadi's guidance has been pivotal in [specific projects or guidance provided].
 **Research Interests:** 
 [![](https://img.shields.io/badge/-Sustainable_Energy-red)](https://www.flame.edu.in/faculty/jayaraman-v-k#SustainableEnergy)
@@ -28,7 +28,7 @@ Recognized for his work in [area of specialization], Dr. Valadi's guidance has b
 - [Learn more about Dr. Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k)
 
 ## Dr. Venkatesh Vinayakrao
-![Dr. Venkatesh Vinayakrao](http://vvtesh.co.in/images/portrait.jpg)
+![Dr. Venkatesh Vinayakrao](/images/vv.jpg)
 An expert in [field or subject], Dr. Vinayakrao's mentorship has enriched my understanding of [specific aspects].
 **Research Interests:** 
 [![](https://img.shields.io/badge/-Quantum_Computing-yellow)](http://vvtesh.co.in/research#QuantumComputing)
