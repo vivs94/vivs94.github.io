@@ -58,7 +58,7 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Pandersamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
-        <p>My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
+        <p> **Assistant Professor, Indian Institute of Science** My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
         <div class="research-interests">
             <span class="research-interest" onclick="filterByTag('SustainableEnergy')">Sustainable Energy</span>
         </div>
@@ -68,7 +68,7 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Jayaraman Valadi</h2>
         <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
-        <p> Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
+        <p> **Distinguished Professor, FLAME University** Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
         <div class="research-interests">
             <!-- Research Interests -->
         </div>
@@ -87,4 +87,14 @@ redirect_from:
     <!-- Add more mentor profiles here if needed -->
 </div>
 
-<p>Each of these individuals has not only contributed to my academic growth but also shaped my approach to [research, learning, etc.]. I am deeply grateful for their guidance and support.</p>
+<p>Each of these individuals has not only contributed to my academic growth but also shaped my approach to Machine Learning research. I am deeply grateful for their guidance and support.</p>
+
+
+
+## 2. Peers
+
+
+
+
+
+<p>I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
