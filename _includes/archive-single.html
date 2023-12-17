@@ -69,12 +69,11 @@
 
     {% if post.excerpt and site.read_more != 'enabled' %}
   <div class="excerpt-box">
-    <h3>Abstract</h3>
+    
     <div class="scrollable-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
   </div>
 {% elsif post.excerpt and site.read_more == 'enabled' %}
   <div class="excerpt-box">
-    <h3>Abstract</h3>
     <div class="scrollable-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
     <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
   </div>
