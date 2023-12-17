@@ -45,7 +45,12 @@ redirect_from:
         text-decoration: none;
         cursor: pointer;
     }
+
+    
+    
 </style>
+
+
 
 <script>
     function filterByTag(tagName) {
@@ -58,32 +63,38 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Pandersamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
-        <strong> Assistant Professor, Indian Institute of Science </strong> 
-        <p> My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
+         <a href="https://www.samy101.com/"> <strong> Assistant Professor, Indian Institute of Science </strong> </a>        
+        <p> My current research advisor at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
         <div class="research-interests">
-            <span class="research-interest" onclick="filterByTag('SustainableEnergy')">Sustainable Energy</span>
+            <span class="research-interest" onclick="filterByTag('Energy Informatics')">Energy Informatics </span>
+            <span class="research-interest" onclick="filterByTag('Sustainable Energy')">Sustainable Energy</span>
+            <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
+            <span class="research-interest" onclick="filterByTag('Smart Buildings')"> Smart Buildings </span>            
         </div>
-        <a href="https://www.samy101.com/">More about Dr. Arjunan</a>
     </div>
     <div class="mentor-profile">
         <h2>Dr. Jayaraman Valadi</h2>
         <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
-        <strong> Distinguished Professor, FLAME University </strong> 
+        <a href="https://www.flame.edu.in/faculty/jayaraman-v-k"><strong> Distinguished Professor, FLAME University </strong> </a>   
         <p> Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
         <div class="research-interests">
-            <!-- Research Interests -->
-        </div>
-        <a href="https://www.flame.edu.in/faculty/jayaraman-v-k">Learn more about Dr. Valadi</a>
+             <span class="research-interest" onclick="filterByTag('Bio Informatics')"> Bio Informatics </span>
+             <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
+             <span class="research-interest" onclick="filterByTag('Evolutionary Algorithms')">Evolutionary Algorithms</span>
+             <span class="research-interest" onclick="filterByTag('XAI')">XAI</span>
+        </div>        
     </div>
     <div class="mentor-profile">
         <h2>Dr. Venkatesh Vinayakrao</h2>
         <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
-        <strong> Visting Faculty, Chennai Mathematical Institute </strong> 
+        <a href="http://vvtesh.co.in/"> <strong> Visting Faculty, Chennai Mathematical Institute </strong> </a>  
         <p> Dr. Vinayakrao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
         <div class="research-interests">
-            <!-- Research Interests -->
+             <span class="research-interest" onclick="filterByTag('Information Retrieval')">Information Retrieval </span>
+             <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
+             <span class="research-interest" onclick="filterByTag('Big Data')">Big Data </span>
+             <span class="research-interest" onclick="filterByTag('Search Engines')">Search Engines</span>
         </div>
-        <a href="http://vvtesh.co.in/">Discover more about Dr. Vinayakrao</a>
     </div>
     <!-- Add more mentor profiles here if needed -->
 </div>
