@@ -27,3 +27,5 @@ An expert in [field or subject], Dr. Vinayakrao's mentorship has enriched my und
 - [Discover more about Dr. Vinayakrao](http://vvtesh.co.in/)
 
 Each of these individuals has not only contributed to my academic growth but also shaped my approach to [research, learning, etc.]. I am deeply grateful for their guidance and support.
+
+
