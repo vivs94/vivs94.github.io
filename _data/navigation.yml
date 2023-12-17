@@ -16,11 +16,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "People"
-    url: /portfolio/
+  #- title: "People"
+  #  url: /portfolio/
         
 
  
     
-  #- title: "Guide"
-  #  url: /markdown/
+  - title: "People"
+    url: /markdown/
