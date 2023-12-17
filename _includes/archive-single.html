@@ -1,38 +1,3 @@
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-
-<style>
-      .scrollable-excerpt {
-          height: 150px;
-          overflow-y: auto;
-          border: 1px solid #ccc;
-          padding: 10px;
-      }
-      /* Other styles */
-      .button {
-          display: inline-block;
-          padding: 10px 15px;
-          margin: 5px;
-          background-color: #f8f8f8;
-          color: #333;
-          border: 1px solid #ddd;
-          text-decoration: none;
-          border-radius: 5px;
-          font-size: 14px;
-      }
-
-      .button:hover {
-          background-color: #e7e7e7;
-      }
-
-      .button i {
-          margin-right: 5px;
-      }
-</style>
-
-
-
 {% include base_path %}
 
 {% if post.header.teaser %}
@@ -90,37 +55,23 @@
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-  <div class="excerpt-box">
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
     
-    <div class="scrollable-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
-  </div>
-{% elsif post.excerpt and site.read_more == 'enabled' %}
-  <div class="excerpt-box">
-    <div class="scrollable-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-    <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
-  </div>
-{% endif %}
-    
-{% if post.citation and post.paperurl %}
-<p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-{% elsif post.citation %}
-<p>Recommended citation: {{ post.citation }} </p>
-{% endif %}
+    {% if post.citation and post.paperurl %}
+      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+    {% elsif post.citation %}
+      <p>Recommended citation: {{ post.citation }} </p>
+    {% elsif post.paper %}
+      <p> Download <a href=" {{ post.paper }} "> Paper </a></p>
 
-{% if post.paper %}
-<p>
-  <a href="{{ post.paper }}" class="button">
-    <i class="fa fa-file-pdf"></i> Download Paper
-  </a>
-</p>
-{% endif %}
+    {% endif %}
 
-{% if post.code %}
-<p>
-  <a href="{{ post.code }}" class="button">
-    <i class="fa fa-github"></i> Code
-  </a>
-</p>
-{% endif %}
+    {% if post.code%}
+    <p> <a href = "{{post.code}}" >Code</a> </p>
+    {% endif %}
+
   </article>
 </div>
