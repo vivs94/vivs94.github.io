@@ -58,7 +58,7 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Pandersamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
-        <p>A visionary in [field of expertise], Dr. Arjunan has been instrumental in [specific achievements or impact].</p>
+        <p>My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
         <div class="research-interests">
             <span class="research-interest" onclick="filterByTag('SustainableEnergy')">Sustainable Energy</span>
         </div>
@@ -68,7 +68,7 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Jayaraman Valadi</h2>
         <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
-        <p>Recognized for his work in [area of specialization], Dr. Valadi's guidance has been pivotal in [specific projects or guidance provided].</p>
+        <p> Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
         <div class="research-interests">
             <!-- Research Interests -->
         </div>
@@ -78,7 +78,7 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Venkatesh Vinayakrao</h2>
         <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
-        <p>An expert in [field or subject], Dr. Vinayakrao's mentorship has enriched my understanding of [specific aspects].</p>
+        <p> Dr. Vinayakrao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
         <div class="research-interests">
             <!-- Research Interests -->
         </div>
