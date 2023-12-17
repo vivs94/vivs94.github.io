@@ -7,12 +7,8 @@ redirect_from:
   - /markdown.html
 ---
 
-
-
-Certainly! Here's an updated version of your page section that includes more detailed information and an improved layout for showcasing your mentors:
-
 ---
-title: "Guides and Mentors"
+# Guides and Mentors
 ---
 
 ## Dr. Pandersamy Arjunan 
