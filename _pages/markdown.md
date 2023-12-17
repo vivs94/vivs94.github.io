@@ -58,26 +58,27 @@ redirect_from:
     <div class="mentor-profile">
         <h2>Dr. Pandersamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
-        <p> **Assistant Professor, Indian Institute of Science** My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
+        <strong> Assistant Professor, Indian Institute of Science </strong> 
+        <p> My current research advisor is at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
         <div class="research-interests">
             <span class="research-interest" onclick="filterByTag('SustainableEnergy')">Sustainable Energy</span>
         </div>
         <a href="https://www.samy101.com/">More about Dr. Arjunan</a>
     </div>
-
     <div class="mentor-profile">
         <h2>Dr. Jayaraman Valadi</h2>
         <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
-        <p> **Distinguished Professor, FLAME University** Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
+        <strong> Distinguished Professor, FLAME University </strong> 
+        <p> Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
         <div class="research-interests">
             <!-- Research Interests -->
         </div>
         <a href="https://www.flame.edu.in/faculty/jayaraman-v-k">Learn more about Dr. Valadi</a>
     </div>
-
     <div class="mentor-profile">
         <h2>Dr. Venkatesh Vinayakrao</h2>
         <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
+        <strong> Visting Faculty, Chennai Mathematical Institute </strong> 
         <p> Dr. Vinayakrao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
         <div class="research-interests">
             <!-- Research Interests -->
