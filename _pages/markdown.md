@@ -8,31 +8,57 @@ redirect_from:
 ---
 
 
-# Guides and Mentors
+## 1. Guides and Mentors
 ---
 
-## Dr. Pandersamy Arjunan
-![Dr. Pandersamy Arjunan](/images/samy_sir.jpg)
-A visionary in [field of expertise], Dr. Arjunan has been instrumental in [specific achievements or impact].
-**Research Interests:** 
-[![](https://img.shields.io/badge/-Computational_Biology-blue)](https://www.samy101.com/research#ComputationalBiology)
-[![](https://img.shields.io/badge/-AI_in_Healthcare-green)](https://www.samy101.com/research#AIHealthcare)
-- [More about Dr. Arjunan](https://www.samy101.com/)
+<style>
+    .mentor-profile {
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
-## Dr. Jayaraman Valadi
-![Dr. Jayaraman Valadi](/images/jayaraman-vk.jpg)
-Recognized for his work in [area of specialization], Dr. Valadi's guidance has been pivotal in [specific projects or guidance provided].
-**Research Interests:** 
-[![](https://img.shields.io/badge/-Sustainable_Energy-red)](https://www.flame.edu.in/faculty/jayaraman-v-k#SustainableEnergy)
-[![](https://img.shields.io/badge/-Advanced_Material_Science-blueviolet)](https://www.flame.edu.in/faculty/jayaraman-v-k#AdvancedMaterialScience)
-- [Learn more about Dr. Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k)
+    .mentor-profile img {
+        border-radius: 50%;
+        width: 150px; /* Adjust size as needed */
+        height: 150px; /* Adjust size as needed */
+        object-fit: cover;
+        border: 3px solid #ddd; /* Optional: Adds a border around the image */
+    }
 
-## Dr. Venkatesh Vinayakrao
-![Dr. Venkatesh Vinayakrao](/images/vv.jpg)
-An expert in [field or subject], Dr. Vinayakrao's mentorship has enriched my understanding of [specific aspects].
-**Research Interests:** 
-[![](https://img.shields.io/badge/-Quantum_Computing-yellow)](http://vvtesh.co.in/research#QuantumComputing)
-[![](https://img.shields.io/badge/-Cryptography-orange)](http://vvtesh.co.in/research#Cryptography)
-- [Discover more about Dr. Vinayakrao](http://vvtesh.co.in/)
+    .research-interests a {
+        text-decoration: none;
+        margin: 5px;
+    }
+</style>
 
-Each of these individuals has not only contributed to my academic growth but also shaped my approach to [research, learning, etc.]. I am deeply grateful for their guidance and support.
+<div class="mentor-profile">
+    <h2>Dr. Pandersamy Arjunan</h2>
+    <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
+    <p>A visionary in [field of expertise], Dr. Arjunan has been instrumental in [specific achievements or impact].</p>
+    <div class="research-interests">
+        <!-- Research Interests -->
+    </div>
+    <a href="https://www.samy101.com/">More about Dr. Arjunan</a>
+</div>
+
+<div class="mentor-profile">
+    <h2>Dr. Jayaraman Valadi</h2>
+    <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
+    <p>Recognized for his work in [area of specialization], Dr. Valadi's guidance has been pivotal in [specific projects or guidance provided].</p>
+    <div class="research-interests">
+        <!-- Research Interests -->
+    </div>
+    <a href="https://www.flame.edu.in/faculty/jayaraman-v-k">Learn more about Dr. Valadi</a>
+</div>
+
+<div class="mentor-profile">
+    <h2>Dr. Venkatesh Vinayakrao</h2>
+    <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
+    <p>An expert in [field or subject], Dr. Vinayakrao's mentorship has enriched my understanding of [specific aspects].</p>
+    <div class="research-interests">
+        <!-- Research Interests -->
+    </div>
+    <a href="http://vvtesh.co.in/">Discover more about Dr. Vinayakrao</a>
+</div>
+
+<p>Each of these individuals has not only contributed to my academic growth but also shaped my approach to [research, learning, etc.]. I am deeply grateful for their guidance and support.</p>
