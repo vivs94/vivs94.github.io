@@ -1,7 +1,7 @@
 ---
 permalink: /markdown/
 title: " 🌟 Extraordinary individuals who have guided and shaped my academic and professional journey 🌟"
-author_profile: false
+author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
