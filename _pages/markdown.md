@@ -47,14 +47,14 @@ redirect_from:
     }
     .peers-grid {
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+        grid-template-columns: repeat(3, 3fr); /* 4 columns */
         grid-gap: 10px;
         max-width: 1200px;
         margin: auto;
     }
 
     .peer-profile {
-        text-align: center;
+        text-align: left;
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 10px;
