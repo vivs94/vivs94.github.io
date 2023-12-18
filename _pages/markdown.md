@@ -164,28 +164,18 @@ redirect_from:
 </div>
 
 <div class="peer-profile">
-    <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
-    <h3>Vivek Kumar Singh</h3>
-    <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
+    <img src="/images/nemo.jpg" alt="Nimisha Borah">
+    <h3>Nimisha Borah</h3>
+    <a href="https://flameuniversity.academia.edu/NimishaBorah"> <strong>PhD Research Scholar at FLAME University</strong> </a>  
     <div class="research-interests">
-        <span class="research-interest">Inclusive Public Policy</span>
-        <span class="research-interest">Political Economy of Caste</span>
-        <span class="research-interest">Indian Constitution</span>
-        <span class="research-interest">Political Theory</span>
+        <span class="research-interest">Substance Use</span>
+        <span class="research-interest">Addiction</span>
+        <span class="research-interest">Mental Health of Incarcerated Individuals</span>
+        <span class="research-interest">Psychology</span>
     </div>   
 </div>
 
-<div class="peer-profile">
-    <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
-    <h3>Vivek Kumar Singh</h3>
-    <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Inclusive Public Policy</span>
-        <span class="research-interest">Political Economy of Caste</span>
-        <span class="research-interest">Indian Constitution</span>
-        <span class="research-interest">Political Theory</span>
-    </div>   
-</div>
+
 
 
 <p>I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
