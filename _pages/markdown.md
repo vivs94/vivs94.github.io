@@ -144,7 +144,7 @@ redirect_from:
 ## 2. Peers
 
 <div class="peer-profile">
-    <img src="/images/sannati-more.jpg" alt="Sannati More">
+    <img src="/images/sislaw.jpg" alt="Sannati More">
     <h3>Sannati More</h3>
     <a href="https://www.linkedin.com/in/sannatimore"> <strong>Manager at KelpHR</strong> </a>  
     <div class="research-interests">
