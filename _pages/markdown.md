@@ -166,7 +166,7 @@ redirect_from:
 <div class="peer-profile">
     <img src="/images/nemo.jpg" alt="Nimisha Borah">
     <h3>Nimisha Borah</h3>
-    <a href="https://flameuniversity.academia.edu/NimishaBorah"> <strong>PhD Research Scholar at FLAME University</strong> </a>  
+    <a href="https://www.linkedin.com/in/nimisha-borah-b08a81211/"> <strong>PhD Research Scholar at FLAME University</strong> </a>  
     <div class="research-interests">
         <span class="research-interest">Substance Use</span>
         <span class="research-interest">Addiction</span>
