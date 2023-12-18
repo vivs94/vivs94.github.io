@@ -189,29 +189,26 @@ redirect_from:
             <span class="research-interest">Psychology</span>
         </div>   
     </div>
-</div>
-
-<div class="peer-profile">
-    <img src="/images/alti.jpg" alt="Altamash Aiman">
-    <h3>Altamash Aiman</h3>
-    <a href="https://www.linkedin.com/in/altamash-aiman-8b7b757b"> <strong>Senior Data Scientist at UnitedHealth Group  </strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Healthcare AI</span>
-        <span class="research-interest">Data Science</span>
-        <span class="research-interest">Applied ML and AI</span>
+    <div class="peer-profile">
+        <img src="/images/alti.jpg" alt="Altamash Aiman">
+        <h3>Altamash Aiman</h3>
+        <a href="https://www.linkedin.com/in/altamash-aiman-8b7b757b"> <strong>Senior Data Scientist at UnitedHealth Group  </strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Healthcare AI</span>
+            <span class="research-interest">Data Science</span>
+            <span class="research-interest">Applied ML and AI</span>
     </div>  
-
-<div class="peer-profile">
-    <img src="/images/nivi.jpg" alt="Niveditta Batra">
-    <h3>Niveditta Batra</h3>
-    <a href="https://sites.google.com/iitj.ac.in/nivedittabatra/"> <strong>PhD Research Scholar at IIT Jodhpur </strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Graph Theory</span>
-        <span class="research-interest">Social Network Analysis</span>
-        <span class="research-interest">Computational Social Science</span>
+    <div class="peer-profile">
+        <img src="/images/nivi.jpg" alt="Niveditta Batra">
+        <h3>Niveditta Batra</h3>
+        <a href="https://sites.google.com/iitj.ac.in/nivedittabatra/"> <strong>PhD Research Scholar at IIT Jodhpur </strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Graph Theory</span>
+            <span class="research-interest">Social Network Analysis</span>
+            <span class="research-interest">Computational Social Science</span>
+            <span class="research-interest">Data Science</span>
     </div>   
-</div>    
-
+   
 </div>
 
 
