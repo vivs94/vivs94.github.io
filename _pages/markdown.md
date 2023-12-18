@@ -199,7 +199,19 @@ redirect_from:
         <span class="research-interest">Healthcare AI</span>
         <span class="research-interest">Data Science</span>
         <span class="research-interest">Applied ML and AI</span>
+    </div>  
+
+<div class="peer-profile">
+    <img src="/images/nivi.jpg" alt="Niveditta Batra">
+    <h3>Nivedita Batra</h3>
+    <a href="https://sites.google.com/iitj.ac.in/nivedittabatra/"> <strong>PhD Candidate at IIT Jodhpur </strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Graph Theory</span>
+        <span class="research-interest">Social Network Analysis</span>
+        <span class="research-interest">Computational Social Science</span>
     </div>   
+</div>    
+
 </div>
 
 
