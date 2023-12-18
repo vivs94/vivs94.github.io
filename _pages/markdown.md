@@ -203,7 +203,7 @@ redirect_from:
 
 <div class="peer-profile">
     <img src="/images/nivi.jpg" alt="Niveditta Batra">
-    <h3>Nivedita Batra</h3>
+    <h3>Niveditta Batra</h3>
     <a href="https://sites.google.com/iitj.ac.in/nivedittabatra/"> <strong>PhD Candidate at IIT Jodhpur </strong> </a>  
     <div class="research-interests">
         <span class="research-interest">Graph Theory</span>
