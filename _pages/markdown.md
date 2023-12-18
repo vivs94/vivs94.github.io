@@ -45,7 +45,40 @@ redirect_from:
         text-decoration: none;
         cursor: pointer;
     }
+    .peers-grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 5 columns */
+        grid-gap: 10px;
+        max-width: 1200px;
+        margin: auto;
+    }
 
+    .peer-profile {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .peer-profile img {
+        border-radius: 50%;
+        width: 100px; /* Smaller image */
+        height: 100px;
+        object-fit: cover;
+        border: 2px solid #ddd;
+    }
+
+    /* Adjustments to the research-interest class as needed */
+    .research-interest {
+        display: inline-block;
+        padding: 3px 7px;
+        margin: 3px;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
     
     
 </style>
@@ -106,7 +139,17 @@ redirect_from:
 ## 2. Peers
 
 
-
+<div class="peer-profile">
+    <img src="/images/kkn.jpg" alt="Kshitish Krit Nanda">
+    <h3>Kshitish Krit Nanda</h3>
+    <a href="https://www.linkedin.com/in/kshitish-krit-nanda-8150b516a/"> <strong> Associate at FischerJordan </strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Risk Analytics</span>
+        <span class="research-interest">Data Science</span>
+        <span class="research-interest">Fintech</span>
+        <span class="research-interest">Football Analytics</span>
+    </div>
+</div>
 
 
 <p>I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
