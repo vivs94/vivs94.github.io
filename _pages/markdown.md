@@ -143,6 +143,18 @@ redirect_from:
 
 ## 2. Peers
 
+<div class="peer-profile">
+    <img src="/images/sannati-more.jpg" alt="Sannati More">
+    <h3>Sannati More</h3>
+    <a href="https://www.linkedin.com/in/sannatimore"> <strong>Manager at KelpHR</strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Linguistics</span>
+        <span class="research-interest">DEIB (Diversity, Equity, Inclusion, and Belonging)</span>
+        <span class="research-interest">Safe Workplaces</span>
+        <span class="research-interest">Mental Health</span>
+    </div>   
+</div>
+
 <div class="peers-grid">
     <div class="peer-profile">
         <img src="/images/kkn.jpg" alt="Kshitish Krit Nanda">
@@ -189,5 +201,6 @@ redirect_from:
         <span class="research-interest">Applied ML and AI</span>
     </div>   
 </div>
+
 
 <p> 😊 I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
