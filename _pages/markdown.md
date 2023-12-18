@@ -61,7 +61,7 @@ redirect_from:
 
 <div class="mentors-grid">
     <div class="mentor-profile">
-        <h2>Dr. Pandersamy Arjunan</h2>
+        <h2>Dr. Pandarasamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
          <a href="https://www.samy101.com/"> <strong> Assistant Professor, Indian Institute of Science </strong> </a>        
         <p> My current research advisor at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
