@@ -47,10 +47,12 @@ redirect_from:
     }
     .peers-grid {
         display: grid;
-        grid-template-columns: repeat(5, 1fr); /* 3 columns */
-        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* 2 columns with min-width of 500px */
+        grid-gap: 20px;
         max-width: 1200px;
         margin: auto;
+        overflow-x: auto; /* Horizontal scroll */
+        padding-bottom: 20px; /* Space at the bottom */
     }
 
     .peer-profile {
