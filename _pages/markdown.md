@@ -47,7 +47,7 @@ redirect_from:
     }
     .peers-grid {
         display: grid;
-        grid-template-columns: repeat(3, 3fr); /* 4 columns */
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
         grid-gap: 10px;
         max-width: 1200px;
         margin: auto;
@@ -62,8 +62,8 @@ redirect_from:
 
     .peer-profile img {
         border-radius: 50%;
-        width: 100px; /* Smaller image */
-        height: 100px;
+        width: 150px; /* Smaller image */
+        height: 150px;
         object-fit: cover;
         border: 2px solid #ddd;
     }
