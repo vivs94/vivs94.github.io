@@ -47,7 +47,7 @@ redirect_from:
     }
     .peers-grid {
         display: grid;
-        grid-template-columns: repeat(5, 1fr); /* 5 columns */
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
         grid-gap: 10px;
         max-width: 1200px;
         margin: auto;
@@ -149,6 +149,30 @@ redirect_from:
         <span class="research-interest">Fintech</span>
         <span class="research-interest">Football Analytics</span>
     </div>
+</div>
+
+<div class="peer-profile">
+    <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
+    <h3>Vivek Kumar Singh</h3>
+    <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Inclusive Public Policy</span>
+        <span class="research-interest">Political Economy of Caste</span>
+        <span class="research-interest">Indian Constitution</span>
+        <span class="research-interest">Political Theory</span>
+    </div>   
+</div>
+
+<div class="peer-profile">
+    <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
+    <h3>Vivek Kumar Singh</h3>
+    <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Inclusive Public Policy</span>
+        <span class="research-interest">Political Economy of Caste</span>
+        <span class="research-interest">Indian Constitution</span>
+        <span class="research-interest">Political Theory</span>
+    </div>   
 </div>
 
 <div class="peer-profile">
