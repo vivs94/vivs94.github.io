@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: " 🌟 Meet the extraordinary individuals who have guided and shaped my academic and professional journey."
+title: " 🌟 Extraordinary individuals who have guided and shaped my academic and professional journey 🌟"
 author_profile: false
 redirect_from: 
   - /md/
@@ -47,7 +47,7 @@ redirect_from:
     }
     .peers-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        grid-template-columns: repeat(5, 1fr); /* 3 columns */
         grid-gap: 10px;
         max-width: 1200px;
         margin: auto;
@@ -102,7 +102,8 @@ redirect_from:
             <span class="research-interest" onclick="filterByTag('Energy Informatics')">Energy Informatics </span>
             <span class="research-interest" onclick="filterByTag('Sustainable Energy')">Sustainable Energy</span>
             <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
-            <span class="research-interest" onclick="filterByTag('Smart Buildings')"> Smart Buildings </span>            
+            <span class="research-interest" onclick="filterByTag('Smart Buildings')"> Smart Buildings </span>
+            <span class="research-interest">Data Science</span>            
         </div>
     </div>
     <div class="mentor-profile">
@@ -115,6 +116,7 @@ redirect_from:
              <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
              <span class="research-interest" onclick="filterByTag('Evolutionary Algorithms')">Evolutionary Algorithms</span>
              <span class="research-interest" onclick="filterByTag('XAI')">XAI</span>
+             <span class="research-interest">Data Science</span>
         </div>        
     </div>
     <div class="mentor-profile">
@@ -127,55 +129,54 @@ redirect_from:
              <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
              <span class="research-interest" onclick="filterByTag('Big Data')">Big Data </span>
              <span class="research-interest" onclick="filterByTag('Search Engines')">Search Engines</span>
+             <span class="research-interest">Data Science</span>
         </div>
     </div>
     <!-- Add more mentor profiles here if needed -->
 </div>
 
-<p>Each of these individuals has not only contributed to my academic growth but also shaped my approach to Machine Learning research. I am deeply grateful for their guidance and support.</p>
+<p> 🌞 Each of these individuals has not only contributed to my academic growth but also shaped my approach to Machine Learning research. I am deeply grateful for their guidance and support.</p>
 
 
 
 ## 2. Peers
 
-
-<div class="peer-profile">
-    <img src="/images/kkn.jpg" alt="Kshitish Krit Nanda">
-    <h3>Kshitish Krit Nanda</h3>
-    <a href="https://www.linkedin.com/in/kshitish-krit-nanda-8150b516a/"> <strong> Associate at FischerJordan </strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Risk Analytics</span>
-        <span class="research-interest">Data Science</span>
-        <span class="research-interest">Fintech</span>
-        <span class="research-interest">Football Analytics</span>
+<div class="peers-grid">
+    <div class="peer-profile">
+        <img src="/images/kkn.jpg" alt="Kshitish Krit Nanda">
+        <h3>Kshitish Krit Nanda</h3>
+        <a href="https://www.linkedin.com/in/kshitish-krit-nanda-8150b516a/"> <strong> Associate at FischerJordan </strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Risk Analytics</span>
+            <span class="research-interest">Data Science</span>
+            <span class="research-interest">Fintech</span>
+            <span class="research-interest">Football Analytics</span>
+        </div>
+    </div>
+    <div class="peer-profile">
+        <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
+        <h3>Vivek Kumar Singh</h3>
+        <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Inclusive Public Policy</span>
+            <span class="research-interest">Political Economy of Caste</span>
+            <span class="research-interest">Indian Constitution</span>
+            <span class="research-interest">Political Theory</span>
+        </div>   
+    </div>
+    <div class="peer-profile">
+        <img src="/images/nemo.jpg" alt="Nimisha Borah">
+        <h3>Nimisha Borah</h3>
+        <a href="https://www.linkedin.com/in/nimisha-borah-b08a81211/"> <strong>PhD Research Scholar at FLAME University</strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Substance Use</span>
+            <span class="research-interest">Addiction</span>
+            <span class="research-interest">Mental Health of Incarcerated Individuals</span>
+            <span class="research-interest">Psychology</span>
+        </div>   
     </div>
 </div>
 
-<div class="peer-profile">
-    <img src="/images/vks.jpg" alt="Vivek Kumar Singh">
-    <h3>Vivek Kumar Singh</h3>
-    <a href="https://jnu.academia.edu/VivekSingh"> <strong>PhD Research Scholar at Jawaharlal Nehru University</strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Inclusive Public Policy</span>
-        <span class="research-interest">Political Economy of Caste</span>
-        <span class="research-interest">Indian Constitution</span>
-        <span class="research-interest">Political Theory</span>
-    </div>   
-</div>
-
-<div class="peer-profile">
-    <img src="/images/nemo.jpg" alt="Nimisha Borah">
-    <h3>Nimisha Borah</h3>
-    <a href="https://www.linkedin.com/in/nimisha-borah-b08a81211/"> <strong>PhD Research Scholar at FLAME University</strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Substance Use</span>
-        <span class="research-interest">Addiction</span>
-        <span class="research-interest">Mental Health of Incarcerated Individuals</span>
-        <span class="research-interest">Psychology</span>
-    </div>   
-</div>
 
 
-
-
-<p>I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
+<p> 😊 I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
