@@ -56,7 +56,7 @@ redirect_from:
     }
 
     .peer-profile {
-        text-align: left;
+        text-align: center;
         padding: 10px;
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -64,8 +64,8 @@ redirect_from:
 
     .peer-profile img {
         border-radius: 50%;
-        width: 150px; /* Smaller image */
-        height: 150px;
+        width: 120px;
+        height: 120px;
         object-fit: cover;
         border: 2px solid #ddd;
     }
