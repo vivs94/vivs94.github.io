@@ -144,19 +144,20 @@ redirect_from:
 
 ## 2. Peers
 
-<div class="peer-profile">
-    <img src="/images/sislaw.jpg" alt="Sannati More">
-    <h3>Sannati More</h3>
-    <a href="https://www.linkedin.com/in/sannatimore"> <strong>Manager at KelpHR</strong> </a>  
-    <div class="research-interests">
-        <span class="research-interest">Linguistics</span>
-        <span class="research-interest">DEIB (Diversity, Equity, Inclusion, and Belonging)</span>
-        <span class="research-interest">Safe Workplaces</span>
-        <span class="research-interest">Mental Health</span>
-    </div>   
-</div>
+
 
 <div class="peers-grid">
+    <div class="peer-profile">
+        <img src="/images/sislaw.jpg" alt="Sannati More">
+        <h3>Sannati More</h3>
+        <a href="https://www.linkedin.com/in/sannatimore"> <strong>Manager at KelpHR</strong> </a>  
+        <div class="research-interests">
+            <span class="research-interest">Linguistics</span>
+            <span class="research-interest">DEIB (Diversity, Equity, Inclusion, and Belonging)</span>
+            <span class="research-interest">Safe Workplaces</span>
+            <span class="research-interest">Mental Health</span>
+        </div>   
+    </div>
     <div class="peer-profile">
         <img src="/images/kkn.jpg" alt="Kshitish Krit Nanda">
         <h3>Kshitish Krit Nanda</h3>
@@ -198,6 +199,7 @@ redirect_from:
             <span class="research-interest">Healthcare AI</span>
             <span class="research-interest">Data Science</span>
             <span class="research-interest">Applied ML and AI</span>
+        </div>    
     </div>  
     <div class="peer-profile">
         <img src="/images/nivi.jpg" alt="Niveditta Batra">
@@ -208,8 +210,8 @@ redirect_from:
             <span class="research-interest">Social Network Analysis</span>
             <span class="research-interest">Computational Social Science</span>
             <span class="research-interest">Data Science</span>
-    </div>   
-   
+        </div>   
+    </div>
 </div>
 
 
