@@ -179,6 +179,15 @@ redirect_from:
     </div>
 </div>
 
-
+<div class="peer-profile">
+    <img src="/images/alti.jpg" alt="Altamash Aiman">
+    <h3>Altamash Aiman</h3>
+    <a href="https://www.linkedin.com/in/altamash-aiman-8b7b757b"> <strong>Senior Data Scientist at UnitedHealth Group  </strong> </a>  
+    <div class="research-interests">
+        <span class="research-interest">Healthcare AI</span>
+        <span class="research-interest">Data Science</span>
+        <span class="research-interest">Applied ML and AI</span>
+    </div>   
+</div>
 
 <p> 😊 I am grateful for the countless long discussions over tea, the meticulous proofreading of my work, and the engaging research chats we've shared.</p>
