@@ -135,8 +135,8 @@ redirect_from:
         </div>
     </div>
     <div class="mentor-profile">
-    <img src="/images/nazrul.jpg" alt="Nazrul Islam">
     <h2>Nazrul Islam</h2>
+    <img src="/images/nazrul.jpg" alt="Nazrul Islam">
     <a href="https://www.linkedin.com/in/nazislam"> <strong>Founder and CEO, Cloudaeye</strong></a> 
     <p>As the founder of Cloudaeye, Nazrul Islam played a pivotal role in shaping my journey as a Machine Learning Engineer, with a particular emphasis on MLOps. His guidance enlightened me about the intricacies of not just prototyping but also the deployment and execution of Machine Learning solutions in addressing real-world problems.</p>
     <div class="research-interests">
