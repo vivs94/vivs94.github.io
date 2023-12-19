@@ -62,9 +62,9 @@ redirect_from:
 
 <div class="mentors-grid">
     <div class="mentor-profile">
-        <h2>Dr. Pandarasamy Arjunan</h2>
         <img src="/images/samy_sir.jpg" alt="Dr. Pandersamy Arjunan">
-         <a href="https://www.samy101.com/"> <strong> Assistant Professor, Indian Institute of Science </strong> </a>        
+        <h2>Dr. Pandarasamy Arjunan</h2>
+        <a href="https://www.samy101.com/"> <strong> Assistant Professor, Indian Institute of Science </strong> </a>        
         <p> My current research advisor at the Indian Institute of Science, specifically at the Robert Bosch Center for Cyber Physical Systems.</p>
         <div class="research-interests">
             <span class="research-interest" onclick="filterByTag('Energy Informatics')">Energy Informatics </span>
@@ -75,8 +75,8 @@ redirect_from:
         </div>
     </div>
     <div class="mentor-profile">
-        <h2>Dr. Jayaraman Valadi</h2>
         <img src="/images/jayaraman-vk.jpg" alt="Dr. Jayaraman Valadi">
+        <h2>Dr. Jayaraman Valadi</h2>
         <a href="https://www.flame.edu.in/faculty/jayaraman-v-k"><strong> Distinguished Professor, FLAME University </strong> </a>   
         <p> Dr. Valadi guided me through my tenure as a research associate at FLAME University, a role I held from January to November 2023.</p>
         <div class="research-interests">
@@ -88,8 +88,8 @@ redirect_from:
         </div>        
     </div>
     <div class="mentor-profile">
-        <h2>Dr. Venkatesh Vinayakrao</h2>
         <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
+        <h2>Dr. Venkatesh Vinayakrao</h2>
         <a href="http://vvtesh.co.in/"> <strong> Visting Faculty, Chennai Mathematical Institute </strong> </a>  
         <p> Dr. Vinayakrao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
         <div class="research-interests">
@@ -101,8 +101,8 @@ redirect_from:
         </div>
     </div>
     <div class="mentor-profile">
-    <h2>Nazrul Islam</h2>
     <img src="/images/nazrul.jpg" alt="Nazrul Islam">
+    <h2>Nazrul Islam</h2>
     <a href="https://www.linkedin.com/in/nazislam"> <strong>Founder and CEO, Cloudaeye</strong></a> 
     <p>As the founder of Cloudaeye, Nazrul Islam played a pivotal role in shaping my journey as a Machine Learning Engineer, with a particular emphasis on MLOps. His guidance enlightened me about the intricacies of not just prototyping but also the deployment and execution of Machine Learning solutions in addressing real-world problems.</p>
     <div class="research-interests">
