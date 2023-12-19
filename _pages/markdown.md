@@ -12,76 +12,42 @@ redirect_from:
 
 
 <style>
-    .mentors-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
-        grid-gap: 20px; /* Adjust the space between grid items */
-        max-width: 1200px; /* Adjust as per your layout */
-        margin: auto; /* Centers the grid in the page */
-    }
+.mentors-grid, .peers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* 2 columns with min-width of 500px */
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: auto; /* Horizontal scroll */
+    padding-bottom: 20px; /* Space at the bottom */
+}
 
-    .mentor-profile {
-        text-align: center;
-        padding: 20px;
-        border: 1px solid #ddd; /* Optional: adds a border to each profile */
-        border-radius: 10px; /* Optional: rounds the corners */
-    }
+.mentor-profile, .peer-profile {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
 
-    .mentor-profile img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border: 3px solid #ddd;
-    }
+.mentor-profile img, .peer-profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
 
-    .research-interest {
-        display: inline-block;
-        padding: 5px 10px;
-        margin: 5px;
-        border-radius: 15px;
-        background-color: #f0f0f0;
-        color: #333;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    .peers-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* 2 columns with min-width of 500px */
-        grid-gap: 20px;
-        max-width: 1200px;
-        margin: auto;
-        overflow-x: auto; /* Horizontal scroll */
-        padding-bottom: 20px; /* Space at the bottom */
-    }
-
-    .peer-profile {
-        text-align: center;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-    }
-
-    .peer-profile img {
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
-        border: 2px solid #ddd;
-    }
-
-    /* Adjustments to the research-interest class as needed */
-    .research-interest {
-        display: inline-block;
-        padding: 3px 7px;
-        margin: 3px;
-        border-radius: 10px;
-        background-color: #f0f0f0;
-        color: #333;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
+/* Adjustments to the research-interest class as needed */
+.research-interest {
+    display: inline-block;
+    padding: 3px 7px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
     
 </style>
 
