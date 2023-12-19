@@ -14,7 +14,7 @@ redirect_from:
 <style>
     .mentors-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+        grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
         grid-gap: 20px; /* Adjust the space between grid items */
         max-width: 1200px; /* Adjust as per your layout */
         margin: auto; /* Centers the grid in the page */
@@ -134,8 +134,21 @@ redirect_from:
              <span class="research-interest">Data Science</span>
         </div>
     </div>
-    <!-- Add more mentor profiles here if needed -->
+    <div class="mentor-profile">
+    <img src="/images/nazrul.jpg" alt="Nazrul Islam">
+    <h2>Nazrul Islam</h2>
+    <a href="https://www.linkedin.com/in/nazislam"> <strong>Founder and CEO, Cloudaeye</strong></a> 
+    <p>As the founder of Cloudaeye, Nazrul Islam played a pivotal role in shaping my journey as a Machine Learning Engineer, with a particular emphasis on MLOps. His guidance enlightened me about the intricacies of not just prototyping but also the deployment and execution of Machine Learning solutions in addressing real-world problems.</p>
+    <div class="research-interests">
+        <span class="research-interest">Cloud Services</span>
+        <span class="research-interest">Applied AI and ML</span>
+        <span class="research-interest">Information Technology</span>
+        <span class="research-interest">Business Intelligence</span>
+    </div>
+    
 </div>
+</div>
+
 
 
 <p> 🌞 Each of these individuals has not only contributed to my academic growth but also shaped my approach to Machine Learning research. I am deeply grateful for their guidance and support.</p>
