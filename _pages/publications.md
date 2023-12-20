@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: false
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 {% if author.googlescholar %}
   <section>
