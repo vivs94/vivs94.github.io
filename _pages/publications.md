@@ -53,25 +53,25 @@ author_profile: false
 {% endif %}
 
 
-<canvas id="publicationsChart" width="400" height="400"></canvas>
 
+<canvas id="publicationsChart" width="400" height="400"></canvas>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     var ctx = document.getElementById('publicationsChart').getContext('2d');
-
-    var publicationYears = '{{ publication_years }}'.split(',');
+    var publicationYears = [];
     var publicationCounts = {};
 
     {% for post in site.publications %}
-      var year = {{ post.date | date: '%Y' }};
-      if (!publicationCounts[year]) {
+      var year = "{{ post.date | date: '%Y' }}";
+      if (!publicationYears.includes(year)) {
+        publicationYears.push(year);
         publicationCounts[year] = 0;
       }
       publicationCounts[year]++;
     {% endfor %}
 
     var data = {
-      labels: Object.keys(publicationCounts),
+      labels: publicationYears,
       datasets: [{
         label: 'Number of Publications',
         backgroundColor: 'rgb(255, 99, 132)',
