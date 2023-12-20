@@ -48,23 +48,25 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-    <!-- Tag-like Metadata -->
+    <!-- Button-like Metadata -->
     <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px;">
-      <!-- Publication Date Tag -->
+      <!-- Publication Date Button -->
       {% if post.date %}
-        <div class="archive__item-tag">Published on: {{ post.date | date: "%B %d, %Y" }}</div>
+        <button class="archive__item-button">Published on: {{ post.date | date: "%B %d, %Y" }}</button>
       {% endif %}
 
-      <!-- Conference Core Rating Tag -->
+      <!-- Conference Core Rating Button -->
       {% if post.core %}
-        <div class="archive__item-tag">Conference Core Rating: {{ post.core }}</div>
+        <button class="archive__item-button">Conference Core Rating: {{ post.core }}</button>
       {% endif %}
 
-      <!-- Impact Factor Tag -->
+      <!-- Impact Factor Button -->
       {% if post.IF %}
-        <div class="archive__item-tag">Journal Impact Factor: {{ post.IF }}</div>
+        <button class="archive__item-button">Journal Impact Factor: {{ post.IF }}</button>
       {% endif %}
     </div>
+
+
 
 
     
@@ -90,14 +92,13 @@
       <a href="{{ post.paper }}" class="archive__item-download-button" target="_blank">
         <i class="fa-solid fa-file-pdf fa-3x"></i>
       </a>
-    </div>
     {% endif %}
 
     {% if post.code %}
     <a href="{{ post.code }}" class="archive__item-code-button" target="_blank" title="View Source Code">
-    <i class="fa-brands fa-github fa-3x"></i>
+      <i class="fa-brands fa-github fa-3x"></i>
     </a>
-    {% endif %}
+    {% endif %}  
     </div>
 
   </article>
