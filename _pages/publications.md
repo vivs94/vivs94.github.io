@@ -45,37 +45,28 @@ author_profile: false
 {% endif %}
 
 
+{% assign collaborator_counts = hash %}
+
+{% for post in site.publications %}
+  {% for author in post.authors %}
+    {% unless author == 'Hardik Prabhu' %}
+      {% if collaborator_counts[author] %}
+        {% assign collaborator_counts = collaborator_counts | merge:  {author => collaborator_counts[author] | plus: 1} %}
+      {% else %}
+        {% assign collaborator_counts = collaborator_counts | merge:  {author => 1} %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% assign collaborators = collaborator_counts | map %}
+{% assign sorted_collaborators = collaborators | sort: '1' | reverse %}
+
 <section>
   <h2>Collaborators</h2>
   <ul id="collaborators-list">
-    <!-- Collaborators will be listed here -->
+    {% for item in sorted_collaborators %}
+      <li>{{ item[0] }} ({{ item[1] }} collaborations)</li>
+    {% endfor %}
   </ul>
 </section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var collaborators = {};
-
-    {% for post in site.publications %}
-      {% for author in post.authors %}
-        {% unless author == 'Hardik Prabhu' %} // Replace 'Your Name' with your actual name
-          if (!collaborators.hasOwnProperty('{{ author }}')) {
-            collaborators['{{ author }}'] = 0;
-          }
-          collaborators['{{ author }}']++;
-        {% endunless %}
-      {% endfor %}
-    {% endfor %}
-
-    var sortedCollaborators = Object.keys(collaborators).sort(function(a, b) {
-      return collaborators[b] - collaborators[a];
-    });
-
-    var collaboratorsList = document.getElementById('collaborators-list');
-    sortedCollaborators.forEach(function(collaborator) {
-      var li = document.createElement('li');
-      li.textContent = collaborator + ' (' + collaborators[collaborator] + ')';
-      collaboratorsList.appendChild(li);
-    });
-  });
-</script>
