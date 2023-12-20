@@ -6,22 +6,37 @@ author_profile: false
 ---
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+  <section>
+    <h2>Google Scholar</h2>
+    <p>Find my complete list of publications on my <a href="{{author.googlescholar}}" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.</p>
+  </section>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% if post.published %} 
-     {% include archive-single.html %}
+<section>
+  <h2>Published Works</h2>
+  {% for post in site.publications reversed %}
+    {% if post.published %} 
+       {% include archive-single-pubs.html %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+{% assign accepted_exists = false %}
+{% for post in site.publications %}
+  {% if post.accepted %}
+    {% assign accepted_exists = true %}
   {% endif %}
 {% endfor %}
 
-Publication Accepted
-==
-
-{% for post in site.publications reversed %}
-  {% if post.accepted %} 
-     {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+{% if accepted_exists %}
+  <section>
+    <h2>Accepted Publications</h2>
+    {% for post in site.publications reversed %}
+      {% if post.accepted %} 
+         {% include archive-single-pubs.html %}
+      {% endif %}
+    {% endfor %}
+  </section>
+{% endif %}
