@@ -48,19 +48,24 @@
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
-      <!-- Publication Date -->
-    {% if post.date %}
-      <p class="archive__item-date">Published on: {{ post.date | date: "%B %d, %Y" }}</p>
-    {% endif %}
+    <!-- Tag-like Metadata -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px;">
+      <!-- Publication Date Tag -->
+      {% if post.date %}
+        <div class="archive__item-tag">Published on: {{ post.date | date: "%B %d, %Y" }}</div>
+      {% endif %}
 
+      <!-- Conference Core Rating Tag -->
+      {% if post.core %}
+        <div class="archive__item-tag">Conference Core Rating: {{ post.core }}</div>
+      {% endif %}
 
-    {% if post.core %}
-    <p> Conference Core Rating :  <i>{{ post.core }}</i> </p>
-    {% endif %}
+      <!-- Impact Factor Tag -->
+      {% if post.IF %}
+        <div class="archive__item-tag">Journal Impact Factor: {{ post.IF }}</div>
+      {% endif %}
+    </div>
 
-    {% if post.IF %}
-    <p> Journal Impact Factor : <i>{{ post.IF }}</i> </p>
-    {% endif %}
 
     
     {% if post.excerpt %}
@@ -91,9 +96,9 @@
     {% if post.code %}
     <a href="{{ post.code }}" class="archive__item-code-button" target="_blank" title="View Source Code">
     <i class="fa-brands fa-github fa-3x"></i>
-   </a>
-   {% endif %}
-   </div>
+    </a>
+    {% endif %}
+    </div>
 
   </article>
 </div>
