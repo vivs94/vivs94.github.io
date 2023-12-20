@@ -15,6 +15,7 @@ author_profile: false
 {% include base_path %}
 
 <section>
+  <h2>Published Works</h2>
   {% for post in site.publications reversed %}
     {% if post.published %} 
        {% include archive-single-pubs.html %}
