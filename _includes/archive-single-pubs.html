@@ -6,7 +6,7 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -80,7 +80,7 @@
 
     {% if post.paper %}
     <a href="{{ post.paper }}" class="archive__item-download-button" target="_blank">
-      <img src="/path/to/pdf-icon.png" alt="PDF icon"> Download PDF
+      <i class="fa-solid fa-file-pdf"></i> Download PDF
     </a>
     {% endif %}
 
