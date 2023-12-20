@@ -45,3 +45,37 @@ author_profile: false
 {% endif %}
 
 
+<section>
+  <h2>Collaborators</h2>
+  <ul id="collaborators-list">
+    <!-- Collaborators will be listed here -->
+  </ul>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var collaborators = {};
+
+    {% for post in site.publications %}
+      {% for author in post.authors %}
+        {% unless author == 'Hardik Prabhu' %} // Replace 'Your Name' with your actual name
+          if (!collaborators.hasOwnProperty('{{ author }}')) {
+            collaborators['{{ author }}'] = 0;
+          }
+          collaborators['{{ author }}']++;
+        {% endunless %}
+      {% endfor %}
+    {% endfor %}
+
+    var sortedCollaborators = Object.keys(collaborators).sort(function(a, b) {
+      return collaborators[b] - collaborators[a];
+    });
+
+    var collaboratorsList = document.getElementById('collaborators-list');
+    sortedCollaborators.forEach(function(collaborator) {
+      var li = document.createElement('li');
+      li.textContent = collaborator + ' (' + collaborators[collaborator] + ')';
+      collaboratorsList.appendChild(li);
+    });
+  });
+</script>
