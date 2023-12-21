@@ -73,13 +73,13 @@
 
     
     {% if post.excerpt %}
-    <div class="archive__item-abstract" style="margin-top: 20px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      <h3 style="margin-bottom: 10px; font-weight: bold;">Abstract</h3>
+    <div class="archive__item-abstract" style="position: relative; margin-top: 20px; border: 1px solid #ddd; padding-top: 40px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <h3 style="position: absolute; top: -20px; background: white; padding: 0 10px;"> <strong> Abstract </strong> </h3>
       <div style="max-height: 150px; overflow-y: auto;">
         {{ post.excerpt | markdownify }}
       </div>
     </div>
-    {% endif %}  
+    {% endif %}
 
 
     {% if post.citation and post.paperurl %}
