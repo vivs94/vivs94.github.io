@@ -20,7 +20,7 @@ Before my current role, I was a Research Associate at FLAME University's Centre 
 
 
 ### 🙌🔬 Collaborations and Projects
-My work with [Dr. Pandarasamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling.  Additionally, my reserch internship at CMI under [Dr. Venkatesh Vinayakrao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
+My work with [Dr. Pandarasamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling.  Additionally, my reserch internship at CMI under [Dr. Venkatesh Vinayakarao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
 
 ### 😊 Reserch Interests
 

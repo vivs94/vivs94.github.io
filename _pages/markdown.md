@@ -91,7 +91,7 @@ redirect_from:
         <img src="/images/vv.jpg" alt="Dr. Venkatesh Vinayakrao">
         <h2>Dr. Venkatesh Vinayakrao</h2>
         <a href="http://vvtesh.co.in/"> <strong> Visting Faculty, Chennai Mathematical Institute </strong> </a>  
-        <p> Dr. Vinayakrao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
+        <p> Dr. Vinayakarao served as my mentor throughout my graduate studies in Data Science at CMI, where he also advised me during my internship at CMI Algolabs.</p>
         <div class="research-interests">
              <span class="research-interest" onclick="filterByTag('Information Retrieval')">Information Retrieval </span>
              <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
