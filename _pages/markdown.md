@@ -95,8 +95,8 @@ redirect_from:
         <div class="research-interests">
              <span class="research-interest" onclick="filterByTag('Information Retrieval')">Information Retrieval </span>
              <span class="research-interest" onclick="filterByTag('Applied ML and AI')">Applied ML and AI </span>
-             <span class="research-interest" onclick="filterByTag('Big Data')">Big Data </span>
-             <span class="research-interest" onclick="filterByTag('Search Engines')">Search Engines</span>
+             <span class="research-interest" onclick="filterByTag('Big Data')"> Big Data </span>
+             <span class="research-interest" onclick="filterByTag('Search Engines')"> Search Engines</span>
              <span class="research-interest">Data Science</span>
         </div>
     </div>
