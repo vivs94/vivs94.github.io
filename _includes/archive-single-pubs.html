@@ -50,6 +50,9 @@
 
     <!-- Button-like Metadata -->
     <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px;">
+      {% if post.first_author %}
+       <i class="fa fa-star" aria-hidden="true"></i>
+      {% endif %} 
       <!-- Publication Date Button -->
       {% if post.date and post.published %}
         <button class="archive__item-button">Published on: {{ post.date | date: "%B %d, %Y" }}</button>
@@ -66,9 +69,7 @@
       {% endif %}
     </div>
 
-    {% if post.first_author %}
-       <i class="fa fa-star" aria-hidden="true"></i>
-    {% endif %}
+    
 
 
     
@@ -107,6 +108,6 @@
 </div>
 
 
-<div class="first-author-legend" style="margin-top: 20px; padding: 10px; border-radius: 5px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <p><i class="fa fa-star" aria-hidden="true"></i> Indicates first author</p>
-</div>
+
+
+

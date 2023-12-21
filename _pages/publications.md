@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: false
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 {% if author.googlescholar %}
   <section>
@@ -43,3 +44,8 @@ author_profile: false
   </section>
 {% endif %}
 
+
+
+<div class="first-author-legend" style="margin-top: 20px; padding: 10px; border-radius: 5px; background-color: #f9f9f9; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <p><i class="fa fa-star" aria-hidden="true"></i> Indicates first author</p>
+</div>
