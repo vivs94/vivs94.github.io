@@ -7,6 +7,14 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
+.post-image {
+  width: 100%; /* or a fixed width like 600px */
+  height: auto; /* maintain aspect ratio */
+  object-fit: cover; /* cover the frame; could be 'contain' to fit whole image */
+  border-radius: 10px; /* optional, for rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional, for a subtle shadow */
+}
+
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
@@ -16,7 +24,7 @@ redirect_from:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% if post.image %}
-  <img src="{{ post.image }}" alt="Post image" />
+  <img src="{{ post.image }}" alt="Post image" class="post-image" />
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
