@@ -37,6 +37,12 @@ My research interests focus on deep learning and generative modeling, with an em
     I am thrilled to announce that I have joined the Robert Bosch Centre for Cyber Physical Systems at the Indian Institute of Science (IISc) as a Research Associate.
   </p>
   
+  <p>
+    <strong>aper accepted at AI4TS worksop of AAAI24<strong>
+    <em>November 15, 2023</em><br>
+  I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
+  </p>
+
   <!-- Repeat the <p>...</p> block for each news item -->
   
 </div>
