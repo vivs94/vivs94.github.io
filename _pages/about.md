@@ -30,18 +30,21 @@ My research interests focus on deep learning and generative modeling, with an em
 ## 📰 Latest News and Highlights
 
 <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; max-height: 300px; overflow-y: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  
+
+   
+  <p>
+    <strong><a href="https://www.linkedin.com/posts/hardik-prabhu_github-hardikprabhuenergy-time-series-anomaly-detection-activity-7145848258379120640-UgQN?utm_source=share&utm_medium=member_desktop"> 🥳 Paper accepted at AI4TS worksop of AAAI24<strong>
+    <em>December  27, 2023</em><br>
+    I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
+  </p>
+
   <p>
     <strong><a href="https://cps.iisc.ac.in/">🏛️ Joined IISc as a Research Associate</a></strong><br>
     <em>November 15, 2023</em><br>
     I am thrilled to announce that I have joined the Robert Bosch Centre for Cyber Physical Systems at the Indian Institute of Science (IISc) as a Research Associate.
   </p>
   
-  <p>
-    <strong><a href="https://www.linkedin.com/posts/hardik-prabhu_github-hardikprabhuenergy-time-series-anomaly-detection-activity-7145848258379120640-UgQN?utm_source=share&utm_medium=member_desktop"> 🥳 Paper accepted at AI4TS worksop of AAAI24<strong>
-    <em>December  27, 2023</em><br>
-    I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
-  </p>
+
 
   <!-- Repeat the <p>...</p> block for each news item -->
   
