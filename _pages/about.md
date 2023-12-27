@@ -40,7 +40,7 @@ My research interests focus on deep learning and generative modeling, with an em
   <p>
     <strong>aper accepted at AI4TS worksop of AAAI24<strong>
     <em>December  27, 2023</em><br>
-  I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
+    I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
   </p>
 
   <!-- Repeat the <p>...</p> block for each news item -->
