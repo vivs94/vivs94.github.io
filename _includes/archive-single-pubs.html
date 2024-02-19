@@ -54,10 +54,8 @@
     {% endif %}    
 
     <!-- Button-like Metadata -->
-    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px;">
-      {% if post.first_author %}
-       <i class="fa fa-star" aria-hidden="true"></i>
-      {% endif %} 
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px;"> 
+      
       <!-- Publication Date Button -->
       {% if post.date and post.published %}
         <button class="archive__item-button">Published on: {{ post.date | date: "%B %d, %Y" }}</button>
