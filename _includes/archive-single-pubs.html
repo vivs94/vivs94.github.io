@@ -93,18 +93,12 @@
 
     {% endif %}
 
-    {% if post.paper %}
-    <div style="text-align: center; margin-top: 20px;">
-      <a href="{{ post.paper }}" class="archive__item-download-button" target="_blank" style="margin-right: 10px;">
-        <i class="fa-solid fa-file-pdf fa-3x"></i>
-      </a>
-    {% endif %}
-    
-    {% if post.code %}
-      <a href="{{ post.code }}" class="archive__item-code-button" target="_blank" title="View Source Code">
-        <i class="fa-brands fa-github fa-3x"></i>
-      </a>
-    {% endif %}  
+    <div style="margin-left: auto; display: flex; gap: 10px;">
+      {% if post.code %}
+        <a href="{{ post.code }}" class="archive__item-code-button" target="_blank" title="View Source Code">
+          <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+      {% endif %}
     </div>
 
   </article>
