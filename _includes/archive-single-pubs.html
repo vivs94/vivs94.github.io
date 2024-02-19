@@ -50,7 +50,7 @@
         {% endif %}
 
     {% if post.authors %}
-    <p>{{ post.authors}}</p>
+    <p>{{ post.authors | replace: 'Hardik Prabhu', '<strong>Hardik Prabhu</strong>' }}</p>
     {% endif %}    
 
     <!-- Button-like Metadata -->
