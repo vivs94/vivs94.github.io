@@ -81,8 +81,8 @@
     
     {% if post.excerpt %}
     <div class="archive__item-abstract" style="margin-top: 20px;">
-      <h3 style="margin-bottom: 5px; font-weight: bold;">Abstract</h3>
-      <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 0;">
+      <h3 onclick="toggleAbstract('abstract-{{ forloop.index }}')" style="margin-bottom: 5px; font-weight: bold; cursor: pointer;">Abstract</h3>
+      <div id="abstract-{{ forloop.index }}" style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 0; display: none;">
         {{ post.excerpt | markdownify }}
       </div>
     </div>
@@ -114,6 +114,16 @@
 </div>
 
 
+<script>
+  function toggleAbstract(abstractId) {
+    var abstract = document.getElementById(abstractId);
+    if (abstract.style.display === 'none' || abstract.style.display === '') {
+      abstract.style.display = 'block';
+    } else {
+      abstract.style.display = 'none';
+    }
+  }
+  </script>
 
 
 
