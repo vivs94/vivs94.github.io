@@ -21,7 +21,6 @@ IF : 4.6
 code: https://github.com/HardikPrabhu/Protein-Feature-Engineering-Framework-for-AMPylation-Site-Prediction
 paper: 
 published: 
-paper: 
 accepted: yes
 first_author: true
 authors: ""Hardik Prabhu, Hrushikesh Bhosale, Aamod Sane, Renu Dhadwal, Vigneshwar Ramakrishnan, Jayaraman Valadi""
