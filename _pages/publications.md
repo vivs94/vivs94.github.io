@@ -12,14 +12,12 @@ layout: archive title: "📜 Publications" permalink: /publications/ author_prof
 <section> <h2>Google Scholar</h2> <p>Find my complete list of publications on my <a href="{{author.googlescholar}}" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.</p> </section> {% endif %}
 {% include base_path %}
 
-<section> {% for post in site.publications reversed %} {% if post.published %} {% include archive-single-pubs.html %} {% endif %} {% endfor %} </section>
-{% assign accepted_exists = false %}
-{% for post in site.publications %}
-{% if post.accepted %}
-{% assign accepted_exists = true %}
-{% endif %}
-{% endfor %}
+{% assign published_pubs = site.publications | where: "published", true | sort: "date" | reverse %}
+{% assign accepted_pubs = site.publications | where: "accepted", true | sort: "date" | reverse %}
 
-{% if accepted_exists %}
+{% if published_pubs.size > 0 %}
 
-<section> <h2>Accepted Publications</h2> {% for post in site.publications reversed %} {% if post.accepted %} {% include archive-single-pubs.html %} {% endif %} {% endfor %} </section> {% endif %}
+<section> <h2>Published Publications</h2> {% for post in published_pubs %} {% include archive-single-pubs.html %} {% endfor %} </section> {% endif %}
+{% if accepted_pubs.size > 0 %}
+
+<section> <h2>Accepted Publications</h2> {% for post in accepted_pubs %} {% include archive-single-pubs.html %} {% endfor %} </section> {% endif %}
