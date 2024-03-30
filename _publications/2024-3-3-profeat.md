@@ -23,7 +23,7 @@ paper:
 published: 
 accepted: yes
 first_author: true
-authors: ""Hardik Prabhu, Hrushikesh Bhosale, Aamod Sane, Renu Dhadwal, Vigneshwar Ramakrishnan, Jayaraman Valadi""
+authors: "Hardik Prabhu, Hrushikesh Bhosale, Aamod Sane, Renu Dhadwal, Vigneshwar Ramakrishnan, Jayaraman Valadi"
 
 ---
 
