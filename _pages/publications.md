@@ -16,7 +16,7 @@ author_profile: false
 
 {% if published_pubs.size > 0 %}
 
-<section> <h2>Published Publications</h2> {% for post in published_pubs %} {% include archive-single-pubs.html %} {% endfor %} </section> {% endif %}
+<section> <h2>Published</h2> {% for post in published_pubs %} {% include archive-single-pubs.html %} {% endfor %} </section> {% endif %}
 {% if accepted_pubs.size > 0 %}
 
 <section> <h2>Accepted Publications</h2> {% for post in accepted_pubs %} {% include archive-single-pubs.html %} {% endfor %} </section> {% endif %}
