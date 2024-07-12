@@ -11,27 +11,42 @@ redirect_from:
 
 
 
-I serve as a Research Associate at [Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science](https://cps.iisc.ac.in/). My current project revolves around application of generative modelling in Energy Time series datasets. 
- 
-My educational background includes an M.Sc. in Data Science from  [Chennai Mathematical Institute](https://www.cmi.ac.in/). 
-I have over 3 years of combined industry and research experience, I previously served as an ML Engineer at [Cloudaeye](https://www.cloudaeye.com/), a startup based in Silicon Valley. During my time there, I applied machine learning techniques to provide solutions for detecting anomalies and performing root cause analyses in cloud-native applications. My research journey encompasses various publications on subjects such as interpretable AI, energy prediction, generative modeling, and anomaly detection. 
+I am currently an ML Researcher at [Cloudaeye](https://www.cloudaeye.com/), a startup based in Fremont, California, where I rejoined in July 2024.
 
-Before my current role, I was a Research Associate at [FLAME University's](https://www.flame.edu.in/) Centre for Mathematical Modelling, where I worked on projects related to explainable AI, generative modeling, and genetic algorithms. Additionally, I contributed as a Teaching Assistant, instructing courses in computational modeling, quantitative analysis, and machine learning. I also actively mentored undergraduates in their research, helping them develop and execute their project ideas.
+Prior to my current role, I served as a Research Associate at the [Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science](https://cps.iisc.ac.in/) from November 2023 to June 2024. During this time, I focused on applying deep generative modeling in Energy Informatics and led a project on using GANs for energy anomaly detection. My work resulted in a paper presented at the AI4TS workshop at the AAAI 24 conference.
+
+Before that, I was a Research Associate at [FLAME University's](https://www.flame.edu.in/) Centre for Mathematical Modelling from January to November 2023. There, I led projects on Explainable AI and Genetic Algorithms, and also served as a Teaching Assistant for various courses.
+
+My first role at [Cloudaeye](https://www.cloudaeye.com/) was as an ML Engineer from July 2021 to October 2022, where I developed and deployed advanced deep learning solutions for anomaly detection in cloud-native applications.
+
+I hold an M.Sc. in Data Science from [Chennai Mathematical Institute](https://www.cmi.ac.in/) (2019-2021) and a B.Sc. in Mathematics from D.G Ruparel College, Mumbai University (2016-2019).
 
 
-### 🙌🔬 Collaborations and Projects
-My work with [Dr. Pandarasamy Arjunan](https://www.samy101.com/) has been instrumental in applying machine learning methodologies for optimizing building energy management. In collaboration with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), I have delved into  projects revolving around explainable AI, genetic algorithms, and generative modeling.  Additionally, my reserch internship at CMI under [Dr. Venkatesh Vinayakarao](http://vvtesh.co.in/) involved implementing  topic modeling to align functionality scripts with documentation for a distinguished software company.
+
+### 🙌🔬 Collaborations & Projects
+
+I've had the opportunity to collaborate on several impactful projects:
+
+- Worked with [Dr. Pandarasamy Arjunan](https://www.samy101.com/) on applying machine learning to optimize building energy management.
+- Explored explainable AI, genetic algorithms, and application of ML in Bioinfomratics with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k).
+- During my internship at [CMI](https://www.cmi.ac.in/), I collaborated with [Dr. Venkatesh Vinayakarao](http://vvtesh.co.in/) on implementing topic modeling to align functionality scripts with software documentation.
+
 
 ### 😊 Reserch Interests
 
-My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. Furthermore, I have a keen interest in areas like model interpretability and representation learning.
+My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. I have authored several publications, including refereed conference papers, journal articles, and a book chapter, covering topics such as GANs, anomaly detection, explainable AI, and applications of machine learning in various domains.
 
 
 ## 📰 Latest News and Highlights
 
 <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; max-height: 300px; overflow-y: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 
-   
+  <p>
+    <strong><a href="https://www.cloudaeye.com/"> 👨‍💻 Rejoined Cloudaeye as ML Researcher</a></strong><br>
+    <em>July 1, 2024</em><br>
+    I'm excited to announce that I have rejoined Cloudaeye as an ML Researcher.
+  </p>
+
   <p>
     <strong><a href="https://www.linkedin.com/posts/hardik-prabhu_github-hardikprabhuenergy-time-series-anomaly-detection-activity-7145848258379120640-UgQN?utm_source=share&utm_medium=member_desktop"> 🥳 Paper accepted at AI4TS workshop of AAAI24 </a></strong><br>
     <em>December  27, 2023</em><br>
