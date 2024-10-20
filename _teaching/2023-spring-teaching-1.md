@@ -21,5 +21,5 @@ Selected python notebooks
 Selected Slides
 ======
 
-* [Introduction to Stats](https://docs.google.com/presentation/d/1-LtoUSzoxx6lGNCpTPhrOnkIXYCAVul1aNp6XQYFXP0/edit?usp=sharing)
+* [Introduction to Stats](https://docs.google.com/presentation/d/1OBWNiOpbaaOdtSjIIvzfTzjqzeB3k1rHLu_VA4OcH-w/edit?usp=sharing)
 
