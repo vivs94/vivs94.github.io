@@ -60,13 +60,3 @@ Beyond my academic work, I am passionate about environmental sustainability and 
 * English
 * Hindi
 * Marathi
-
----
-
-### Contact
-
-📧 [vivs.94@gmail.com](mailto:vivs.94@gmail.com)  
-📍 New Delhi, India
-
-
-> Stay updated with my latest academic and professional activities here.
