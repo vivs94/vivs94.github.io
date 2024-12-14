@@ -43,17 +43,6 @@ I was honored to receive the Best Paper Award at the 1st Global Conference on Ca
 
 My doctoral research, titled "Caste Networks in Indian Business: A Comparative Study of Vaishyas and Dalits in Delhi," examines how traditional social structures continue to influence modern economic relationships. This work builds on my previous publications, including articles in Prabuddha: Journal of Social Equality and the Indian Journal of Dalit and Tribal Studies and Action.
 
-## Publications
-
-1. **Counting Caste: A Step towards Radical Anticasteism**  
-   *Prabuddha: Journal of Social Equality* 7.1 (2023): 1-13
-
-2. **Manu, Market and Beyond**  
-   *Indian Journal of Dalit and Tribal Studies and Action* 2(3): 22–42 (2017)
-
-## Beyond Academia
-
-Beyond my academic work, I am passionate about environmental sustainability and social engagement. During my undergraduate years, I coordinated environmental initiatives and led sociology discussion groups, experiences that continue to inform my holistic approach to understanding social systems.
 
 ## Languages
 
