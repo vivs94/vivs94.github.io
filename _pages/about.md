@@ -10,59 +10,63 @@ redirect_from:
 ---
 
 
+I am a Political Science researcher and educator specializing in the intersection of caste, business, and social structures in India. Currently, I am completing my PhD at the Centre for Political Studies, Jawaharlal Nehru University, where my research explores how caste networks influence business dynamics in Delhi, particularly focusing on Vaishya and Dalit communities.
 
-I am currently an ML Researcher at [Cloudaeye](https://www.cloudaeye.com/), a startup based in Fremont, California, where I rejoined in July 2024.
+## Research Focus
 
-Prior to my current role, I served as a Research Associate at the [Robert Bosch Centre for Cyber-Physical Systems, Indian Institute of Science](https://cps.iisc.ac.in/) from November 2023 to June 2024. During this time, I focused on applying deep generative modeling in Energy Informatics and led a project on using GANs for energy anomaly detection. My work resulted in a paper presented at the AI4TS workshop at the AAAI 24 conference.
+My academic work examines the complex relationships between social structures, economic systems, and political frameworks in India. I am particularly interested in:
 
-Before that, I was a Research Associate at [FLAME University's](https://www.flame.edu.in/) Centre for Mathematical Modelling from January to November 2023. There, I led projects on Explainable AI and Genetic Algorithms, and also served as a Teaching Assistant for various courses.
+* Political Economy
+* Indian Political System
+* Research Methodology
+* Constitutional Studies
+* Inclusive Public Policy
 
-My first role at [Cloudaeye](https://www.cloudaeye.com/) was as an ML Engineer from July 2021 to October 2022, where I developed and deployed advanced deep learning solutions for anomaly detection in cloud-native applications.
+## Academic Journey
 
-I hold an M.Sc. in Data Science from [Chennai Mathematical Institute](https://www.cmi.ac.in/) (2019-2021) and a B.Sc. in Mathematics from D.G Ruparel College, Mumbai University (2016-2019).
+My journey in political science began at Fergusson College, Pune, where I developed a strong foundation in political theory. This led me to pursue my MA at JNU's Centre for Political Studies, followed by an MPhil from the University of Hyderabad, where I researched "Dalits, Modernity and Capitalism in India."
 
+## Teaching Experience
 
+As a Visiting Faculty member at Delhi Metropolitan Education's Department of Law, I teach Political Science courses to students in the integrated BA LLB program. My teaching approach emphasizes interactive methods to help students engage with complex concepts in:
 
-### 🙌🔬 Collaborations & Projects
+* Political Theory
+* Political Systems
+* International Relations
+* Indian Constitution
 
-I've had the opportunity to collaborate on several impactful projects:
+## Recent Recognition
 
-- Worked with [Dr. Pandarasamy Arjunan](https://www.samy101.com/) on applying machine learning to optimize building energy management.
-- Explored explainable AI, genetic algorithms, and application of ML in Bioinfomratics with [Dr. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k).
-- During my internship at [CMI](https://www.cmi.ac.in/), I collaborated with [Dr. Venkatesh Vinayakarao](http://vvtesh.co.in/) on implementing topic modeling to align functionality scripts with software documentation.
+I was honored to receive the Best Paper Award at the 1st Global Conference on Caste, Business and Society at the University of Cambridge's Judge Business School in June 2023. This recognition reflects my commitment to producing meaningful research that contributes to our understanding of social and economic structures in India.
 
+## Current Research
 
-### 😊 Reserch Interests
+My doctoral research, titled "Caste Networks in Indian Business: A Comparative Study of Vaishyas and Dalits in Delhi," examines how traditional social structures continue to influence modern economic relationships. This work builds on my previous publications, including articles in Prabuddha: Journal of Social Equality and the Indian Journal of Dalit and Tribal Studies and Action.
 
-My research interests focus on deep learning and generative modeling, with an emphasis on its applications, such as anomaly detection, among others. I have authored several publications, including refereed conference papers, journal articles, and a book chapter, covering topics such as GANs, anomaly detection, explainable AI, and applications of machine learning in various domains.
+## Publications
 
+1. **Counting Caste: A Step towards Radical Anticasteism**  
+   *Prabuddha: Journal of Social Equality* 7.1 (2023): 1-13
 
-## 📰 Latest News and Highlights
+2. **Manu, Market and Beyond**  
+   *Indian Journal of Dalit and Tribal Studies and Action* 2(3): 22–42 (2017)
 
-<div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; max-height: 300px; overflow-y: auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+## Beyond Academia
 
-  <p>
-    <strong><a href="https://www.cloudaeye.com/"> 👨‍💻 Rejoined Cloudaeye as ML Researcher</a></strong><br>
-    <em>July 1, 2024</em><br>
-    I'm excited to announce that I have rejoined Cloudaeye as an ML Researcher.
-  </p>
+Beyond my academic work, I am passionate about environmental sustainability and social engagement. During my undergraduate years, I coordinated environmental initiatives and led sociology discussion groups, experiences that continue to inform my holistic approach to understanding social systems.
 
-  <p>
-    <strong><a href="https://www.linkedin.com/posts/hardik-prabhu_github-hardikprabhuenergy-time-series-anomaly-detection-activity-7145848258379120640-UgQN?utm_source=share&utm_medium=member_desktop"> 🥳 Paper accepted at AI4TS workshop of AAAI24 </a></strong><br>
-    <em>December  27, 2023</em><br>
-    I am thrilled to announce that our paper, "Generative Adversarial Network with Soft-Dynamic Time Warping and Parallel Reconstruction for Energy Time Series Anomaly Detection," has been accepted at the AI4TS Workshop@AAAI 2024. 
-  </p>
+## Languages
 
-  <p>
-    <strong><a href="https://cps.iisc.ac.in/">🏛️ Joined IISc as a Research Associate</a></strong><br>
-    <em>November 15, 2023</em><br>
-    I am thrilled to announce that I have joined the Robert Bosch Centre for Cyber Physical Systems at the Indian Institute of Science (IISc) as a Research Associate.
-  </p>
-  
+* English
+* Hindi
+* Marathi
 
+---
 
-  <!-- Repeat the <p>...</p> block for each news item -->
-  
-</div>
+### Contact
+
+📧 [vivs.94@gmail.com](mailto:vivs.94@gmail.com)  
+📍 New Delhi, India
+
 
 > Stay updated with my latest academic and professional activities here.
