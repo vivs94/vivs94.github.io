@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-IN"
-title                    : "Hardik's Homepage"
+title                    : "Vivek's Homepage"
 title_separator          : "-"
-name                     : &name "Hardik Prabhu"
+name                     : &name "Vivek Kumar Singh"
 description              : &description "personal description"
-url                      : https://hardikprabhu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://vivs94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "HardikPrabhu/hardikprabhu.github.io"
+repository               : "vivs94/vivs94.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hardik Prabhu"
+  name             : "Vivek Kumar Singh"
   avatar           : "dp_option_1.jpg"
-  bio              : "Machine Learning Researcher"
-  location         : "Mumbai, India"
-  employer         : "Cloudaeye"
+  bio              : "Political Science Researcher"
+  location         : "Delhi, India"
+  employer         : ""
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=UVGQmZMAAAAJ&hl=en"
-  email            : "hardik.prabhu@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Hardik_Prabhu"
+  googlescholar    : "https://scholar.google.com/citations?user=rH-SzPEAAAAJ&hl=en"
+  email            : "vivs.94@gmail.com"
+  researchgate     :  "https://www.researchgate.net/profile/Vivek-Kumar-Singh-21"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "HardikPrabhu"
+  github           : "vivs94"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : "hardik-prabhu"
-  orcid            : "https://orcid.org/0000-0001-5577-4511"
+  linkedin         : 
+  orcid            : "https://orcid.org/0009-0004-8899-7489"
   pinterest        :
   soundcloud       :
   stackoverflow    :
